@@ -74,10 +74,17 @@ The colours below are used in the following instances:
 * #2B2B2B & #FAF9F6 - Used as Primary and secondary text colors.
 * #226F54 - Used to alert user if answer clicked is correct.
 * #E04C4C - Used to alert user if answer clicked is incorrect.
-![JavaScript Vs Python Quiz Color Scheme](documentation/color-palette-quiz.png)
+![Python Vs Javascript Quiz Color Scheme](documentation/color-palette-quiz.png)
 
 ### Typography
+
+* [Noto Serif](https://fonts.google.com/noto/specimen/Noto+Serif?preview.text=JavaScript%20Vs%20Python&preview.text_type=custom&query=noto+serif&sort=popularity&noto.query=novecento) - Used for Game heading and Questions.
+* [Open Sans](https://fonts.google.com/specimen/Open+Sans?preview.text=JavaScript%20Vs%20Python&preview.text_type=custom&query=open+sans&sort=popularity&noto.query=novecento) - Used for all other texts in game.
+Noto Serif is a serifed typeface created by Google specially for users to consume written digital content. So, naturally it is legible on the screen despite its decorate swashes.
+I first got the heading font i wanted from Google fonts and i used [typ.io](https://typ.io/fonts/noto_serif) to get a font that it pairs well with .
+
 ### Imagery
+
 ### Wireframes
 
 I created wireframes using [Balsamiq](https://balsamiq.com/) for mobile, tablet and desktops screens.
