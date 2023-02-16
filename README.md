@@ -99,7 +99,18 @@ I created wireframes using [Balsamiq](https://balsamiq.com/) for mobile, tablet 
 
 ### Features
 ### Future implimentation
+
 ### Accessibility
+
+I ensured to provide sufficient accessibility throughout the making of this game site by the following ways:
+
+* I used semantic HTML.
+* Ensures that there is sufficient colour contrast throughout the game site.
+* Ensured that user knows when their answer is correct or wrong by using red and green shade to highlight answer.
+* Ensure that the user can see the score while playing (this would also help users that maybe color blind).
+* Allowed users to see their score in scoreboard to compare.
+
+
 ## Technologies Used
 ### Languages Used 
 ### Frameworks, Libraries & Programs Used
