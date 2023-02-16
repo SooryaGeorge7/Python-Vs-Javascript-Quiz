@@ -69,6 +69,17 @@ The website is especially designed for newbies to coding or the tech world. When
 ### Typography
 ### Imagery
 ### Wireframes
+
+I created wireframes using [Balsamiq](https://balsamiq.com/) for mobile, tablet and desktops screens.
+
+#### Home Page
+
+![Home page](documentation/wireframes/wireframe-first-page.png)
+
+### Game Page 
+
+![Game page](documentation/wireframes/wireframe-game-page.png)
+
 ### Features
 ### Future implimentation
 ### Accessibility
