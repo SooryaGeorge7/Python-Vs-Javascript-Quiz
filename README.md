@@ -141,4 +141,11 @@ I ensured to provide sufficient accessibility throughout the making of this game
 ## Testing
 ### Solved Bugs
 ### Known Bugs
+
 ## Credits
+
+### Code used 
+### Content 
+### Media 
+* [Background game image- from pexels website](https://www.pexels.com/photo/close-up-photo-of-matrix-background-1089438/)
+### Acknowledgements
