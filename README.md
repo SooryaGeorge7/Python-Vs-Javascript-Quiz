@@ -113,7 +113,26 @@ I ensured to provide sufficient accessibility throughout the making of this game
 
 ## Technologies Used
 ### Languages Used 
+
 ### Frameworks, Libraries & Programs Used
+
+* [Git](https://git-scm.com/) - For version control
+* [Github](https://github.com/) - To save and store files for game site.
+* [GitPod](https://gitpod.io/) - Code editor.
+* [Pexels](https://www.pexels.com/ )- To get free images from open source.
+* [Coolors](https://coolors.co/) - To get color palette.
+* [sv grepo](https://www.svgrepo.com/) - To find svg icon for favicon and logo.
+* [Real Favicon generator](https://coolors.co/) - To generate favicon.
+* [Balsamiq](https://balsamiq.com/) - Used to create wireframes of game site.
+* [Typ.io](https://typ.io/) - Used to find complimentory font for main heading.
+* [Google fonts](https://fonts.google.com/) - Used to get import links for the specific fonts chosen.
+* [Font Awesome](https://fontawesome.com/) - Used to get free icons.
+* [Tiny PNG](https://tinypng.com/) -  To compress images
+* [Birme](https://www.birme.net/) - To change format of image to webp format.
+* [Google developer tools](https://developer.chrome.com/docs/devtools/) - Used to test website throughout the process of developing it.
+* [Am i responsive](http://ami.responsivedesign.is/) -  To display the quiz game site on a range of devices.
+
+
 ## Deployment & Local Development
 ### Deployment
 ### Local Development
