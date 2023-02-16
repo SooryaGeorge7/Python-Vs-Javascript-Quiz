@@ -46,9 +46,24 @@ The website is especially designed for newbies to coding or the tech world. When
 ---
 
 ## User Experience (UX)
+
+
+
 ### User Stories
+
 #### First Time Visitor Goals
+
+* As a user, I want to know about the game from looking at it so that i can play the game being informed about the content.
+* As a user, I want to find out how to play game so that i can play the game efficiently.
+* As a user, I want see if my answer is correct so that my score increases.
+* As a user, I want to see time limit i have left so that i dont run out of time when playing.
+
 #### Returning Visitor Goals
+
+* As a user,I want different questions every time i play to test my knowledge even further.
+* As a user,I want to be able to play again if i wanted to.
+
+
 ## Design
 ### Colour Scheme
 ### Typography
