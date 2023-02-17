@@ -28,6 +28,9 @@ body {
     font-size: 2rem;
     /*text-shadow: 0 0 5px #FF9F00, 0 0 5px #FF9F00;*/
 }
+h2 {
+    font-family: "noto serif",sans-serif;
+}
 
 #home-page, #gameover-area, #game-page {
     
