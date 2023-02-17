@@ -18,3 +18,13 @@ body {
     font-family: "Open Sans", sans-serif;
     color: #2B2B2B;
 }
+
+.quiz-heading {
+    text-align: center;
+    /* top: 1rem; */
+    margin-top: 3rem;
+    font-family: "noto serif",sans-serif;
+    color: #faf9f6;
+    font-size: 2rem;
+    /*text-shadow: 0 0 5px #FF9F00, 0 0 5px #FF9F00;*/
+}
