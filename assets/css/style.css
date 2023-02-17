@@ -67,3 +67,23 @@ h2 {
     background-color: #faf9f6;
     border: 0.125rem solid #FF9F00;
 }
+
+.play, #go-back {
+    font-size: 1.5rem;
+    color: #faf9f6;
+    padding:0.5rem;
+    background-color: #FF9F00;
+    border-radius: 0.5rem;
+    border: 0.125rem solid #faf9f6;
+    margin-top: 1rem;
+    border-style: outset;
+}
+.play:hover, #go-back:hover {
+    background-color:  rgba(255,159,0, 0.7);
+    cursor: pointer;
+}
+.button {
+    color:#faf9f6;
+    padding:0.25rem;
+    font-size: 1.25rem;
+}
