@@ -41,3 +41,29 @@ h2 {
     border-radius: 0.5rem;
     
 }
+.username-div {
+    font-size: 1rem;
+    margin-bottom: 2rem;
+    
+    font-weight: bold;
+    background: linear-gradient(to right, rgba(250,249,246, 0.7), rgba(255,159,0,1));
+    
+    padding: 1rem;
+    margin-top: 1rem;
+    border-radius: 0.5rem;
+    
+}
+#username {
+    width: 9rem;
+    height:2rem;
+    border: 0.125rem solid #2B2B2B;
+}
+#username:hover {
+    background-color: rgba(250,249,246, 0.7);
+    border: 0.125rem solid #FF9F00;
+}
+
+#username:focus {
+    background-color: #faf9f6;
+    border: 0.125rem solid #FF9F00;
+}
