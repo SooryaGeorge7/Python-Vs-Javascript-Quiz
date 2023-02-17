@@ -9,3 +9,8 @@
     list-style: none;
     box-sizing: border-box;
 }
+
+body {
+    background-image: url("../images/backgroundpic-quiz.webp");
+    
+}
