@@ -41,6 +41,9 @@ h2 {
     border-radius: 0.5rem;
     
 }
+#home-question {
+    font-size: 1rem;
+}
 .username-div {
     font-size: 1rem;
     margin-bottom: 2rem;
