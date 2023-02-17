@@ -28,3 +28,13 @@ body {
     font-size: 2rem;
     /*text-shadow: 0 0 5px #FF9F00, 0 0 5px #FF9F00;*/
 }
+
+#home-page, #gameover-area, #game-page {
+    
+    background-color: rgba(250,249,246, 0.8);
+    margin: 2rem;
+    text-align: center;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    
+}
