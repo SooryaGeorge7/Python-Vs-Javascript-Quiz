@@ -43,3 +43,9 @@ function validateMessage() {
     score.innerText = userscore;
     questionsLeft.innerText= qLeft;
 }
+function displayQuestions(question) {
+    questionArea.innerText = question.question;
+    python.innerText = question.choice[0];
+    javaScript.innerText = question.choice[1];
+    
+}
