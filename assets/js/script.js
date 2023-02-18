@@ -34,4 +34,12 @@ function validateMessage() {
  let qNumber = 1;
  let qLeft = 10;
  let currentIndex = 0;
- let counting;
+ 
+ function playGame() {
+    gamePage.style.display = "block";
+    homePage.style.display = "none";
+    displayQuestions(questions[currentIndex]);
+    questionNumber.innerText = qNumber;
+    score.innerText = userscore;
+    questionsLeft.innerText= qLeft;
+}
