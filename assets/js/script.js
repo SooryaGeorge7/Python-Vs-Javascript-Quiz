@@ -23,3 +23,15 @@ function validateMessage() {
     }
 
 }
+
+ //game starts with timer and first question
+ let questionNumber =document.getElementById('question-number');
+ let score = document.getElementById('your-score');
+ let timer = document.getElementById('timer');
+ let questionsLeft = document.getElementById('question-remaining');
+ 
+ let userscore = 0;
+ let qNumber = 1;
+ let qLeft = 10;
+ let currentIndex = 0;
+ let counting;
