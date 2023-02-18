@@ -32,7 +32,7 @@ h2 {
     font-family: "noto serif",sans-serif;
 }
 
-#home-page, #gameover-area, #game-page {
+#home-page, #gameover-area, #game-page, #how-to-play {
     
     background-color: rgba(250,249,246, 0.8);
     margin: 2rem;
@@ -46,6 +46,20 @@ h2 {
 }
 #how-to-play {
     display:none
+}
+#go-back {
+    font-size: 1rem;
+    color: #faf9f6;
+    padding:0.5rem;
+    background-color: #FF9F00;
+    border-radius: 0.5rem;
+    border: 0.125rem solid #faf9f6;
+    margin-top: 1rem;
+    border-style: outset;
+}
+#go-back:hover{
+    background-color:  rgba(255,159,0, 0.7);
+    cursor: pointer;
 }
 .username-div {
     font-size: 1rem;
@@ -74,7 +88,7 @@ h2 {
     border: 0.125rem solid #FF9F00;
 }
 
-.play, #go-back {
+.play {
     font-size: 1.5rem;
     color: #faf9f6;
     padding:0.5rem;
@@ -84,10 +98,11 @@ h2 {
     margin-top: 1rem;
     border-style: outset;
 }
-.play:hover, #go-back:hover {
+.play:hover{
     background-color:  rgba(255,159,0, 0.7);
     cursor: pointer;
 }
+
 .button {
     color:#faf9f6;
     padding:0.25rem;
