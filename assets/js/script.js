@@ -8,6 +8,13 @@ let questionArea = document.getElementById('questions');
 let python = document.getElementById('python');
 let javaScript = document.getElementById('javascript');
 
+let howToplay = document.getElementById('how-to-play');
+
+function howtoPlay(){
+    howToplay.style.display = "block";
+    homePage.style.display = "none";
+
+}
 //Validate username
 let usernameLength = "*Please enter a name longer than 2 charectors*";
 let checkSpace = "Please enter a name with no spaces";
@@ -49,3 +56,4 @@ function displayQuestions(question) {
     javaScript.innerText = question.choice[1];
     
 }
+
