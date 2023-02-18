@@ -44,6 +44,9 @@ h2 {
 #home-question {
     font-size: 1rem;
 }
+#how-to-play {
+    display:none
+}
 .username-div {
     font-size: 1rem;
     margin-bottom: 2rem;
