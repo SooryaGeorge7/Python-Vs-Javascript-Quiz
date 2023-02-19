@@ -34,12 +34,18 @@ h2 {
 
 #home-page, #gameover-area, #game-page, #how-to-play {
     
-    background: radial-gradient(  rgba(255,159,0,5),rgba(255,159,0,0.2));
+    background: radial-gradient(  rgba(255,159,0,5),rgba(255,159,0,0.3));
     margin: 2rem;
     text-align: center;
     padding: 1rem;
     border-radius: 0.5rem;
     
+}
+#description {
+    
+    font-weight: bold;
+    color: #faf9f6;
+    text-shadow: 0 0 3px #2B2B2B, 0 0 5px #2B2B2B;
 }
 #home-question {
     font-size: 1rem;
