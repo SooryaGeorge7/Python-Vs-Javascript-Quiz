@@ -53,6 +53,13 @@ function validateMessage() {
     counting = setInterval(countDown,1000);
     countDown();
 }
+let i = questions.length;
+ while (--i > 0){
+    let randomI = Math.floor(Math.random() * (i+1));
+    [questions[randomI], questions[i]] = [questions[i], questions[randomI]];
+ }
+ //console.log(questions);
+ 
 function displayQuestions(question) {
     questionArea.innerText = question.question;
     python.innerText = question.choice[0];
