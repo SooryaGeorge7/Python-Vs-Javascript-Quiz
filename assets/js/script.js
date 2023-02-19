@@ -106,3 +106,9 @@ function nextQuestion() {
         
     }
 }
+
+function gameOver() {
+    gamePage.style.display = "none";
+    gameoverPage.style.display = "block";
+    
+}
