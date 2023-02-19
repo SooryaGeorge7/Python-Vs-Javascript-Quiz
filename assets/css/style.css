@@ -34,7 +34,7 @@ h2 {
 
 #home-page, #gameover-area, #game-page, #how-to-play {
     
-    background-color: rgba(250,249,246, 0.8);
+    background: radial-gradient(  rgba(255,159,0,5),rgba(255,159,0,0.1));
     margin: 2rem;
     text-align: center;
     padding: 1rem;
