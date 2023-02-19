@@ -199,6 +199,11 @@ h2 {
     /*margin: 5rem 4rem;*/
     
 }
+#no-time-left {
+    font-weight: bold;
+    color: #faf9f6;
+    text-shadow: 0 0 3px #2B2B2B, 0 0 5px #2B2B2B;
+}
 #gameover-heading {
     font-size: 1.25rem;
     
