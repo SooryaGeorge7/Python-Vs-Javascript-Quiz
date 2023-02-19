@@ -46,7 +46,7 @@ function validateMessage() {
  function playGame() {
     gamePage.style.display = "block";
     homePage.style.display = "none";
-    displayQuestions(questions[currentIndex]);
+    displayQuestions(slicedQuestions[currentIndex]);
     questionNumber.innerText = qNumber;
     score.innerText = userscore;
     questionsLeft.innerText= qLeft;
@@ -59,7 +59,13 @@ let i = questions.length;
     [questions[randomI], questions[i]] = [questions[i], questions[randomI]];
  }
  //console.log(questions);
+let m; 
+let slicedQuestions;
  
+m = Math.ceil(questions.length / 3);
+slicedQuestions = questions.slice(0, m);
+console.log(slicedQuestions[currentIndex]);
+
 function displayQuestions(question) {
     questionArea.innerText = question.question;
     python.innerText = question.choice[0];
@@ -71,7 +77,7 @@ let gamepage = document.getElementById('game-page');
 function checkAnswer(event) {
     answerSelected = event.target;
     let selected = answerSelected.innerText;
-    let rightAnswer = questions[currentIndex].correct;
+    let rightAnswer = slicedQuestions[currentIndex].correct;
     if (selected === rightAnswer){
         answerSelected.style.background= "#226F54";
         //gamepage.style.border = "0.5rem solid #226F54";
@@ -82,7 +88,7 @@ function checkAnswer(event) {
             questionsLeft.innerText= --qLeft;
             questionNumber.innerText = ++qNumber;
             nextQuestion()
-       }, 1000);
+        }, 1000);
         
         
     } else {
@@ -108,11 +114,11 @@ for (let i = 0; i < ansButton.length; i++) {
     
 }
 function nextQuestion() {
-    if (currentIndex + 1 > questions.length) {
+    if (currentIndex + 1 > slicedQuestions.length) {
         gameOver();
         
     }else {
-        displayQuestions(questions[currentIndex]);
+        displayQuestions(slicedQuestions[currentIndex]);
         
     }
 }
