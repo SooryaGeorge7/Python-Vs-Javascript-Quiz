@@ -62,6 +62,24 @@ function checkAnswer(event) {
     answerSelected = event.target;
     let selected = answerSelected.innerText;
     let rightAnswer = questions[currentIndex].correct;
+    if (selected === rightAnswer){
+        answerSelected.style.background= "#226F54";
+        //gamepage.style.border = "0.5rem solid #226F54";
+        setTimeout(function(){
+            answerSelected.style.background = "#faf9f6";
+            
+       }, 1000);
+        
+        
+    } else {
+        answerSelected.style.background= "#E04C4C";
+        //gamepage.style.border = "0.5rem solid #E04C4C";
+        setTimeout(function(){
+            answerSelected.style.background = "#faf9f6";
+            
+       }, 1000);
+       
+    }
     
     
 
