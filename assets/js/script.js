@@ -71,6 +71,7 @@ function checkAnswer(event) {
             currentIndex++;
             questionsLeft.innerText= --qLeft;
             questionNumber.innerText = ++qNumber;
+            nextQuestion()
        }, 1000);
         
         
@@ -82,6 +83,7 @@ function checkAnswer(event) {
             currentIndex++;
             questionsLeft.innerText= --qLeft;
             questionNumber.innerText = ++qNumber;
+            nextQuestion()
        }, 1000);
        
     }
@@ -92,7 +94,15 @@ function checkAnswer(event) {
 let ansButton = document.getElementsByClassName('answer');
 for (let i = 0; i < ansButton.length; i++) {
     ansButton[i].addEventListener('click', checkAnswer);
-    //ansButton[i].addEventListener('pointercancel', changeColor);
-    //ansButton[i].addEventListener('pointerup', changeColor);
     
+    
+}
+function nextQuestion() {
+    if (currentIndex + 1 > questions.length) {
+        gameOver();
+        
+    }else {
+        displayQuestions(questions[currentIndex]);
+        
+    }
 }
