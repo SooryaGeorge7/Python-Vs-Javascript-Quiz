@@ -131,6 +131,7 @@ h2 {
     /*background-color: #FF9F00;*/
     
     /*padding:0.25rem;*/
+    background:  radial-gradient(  rgba(250,249,246,5),rgba(250,249,246,0.4));
     border-radius: 0.5rem;
 }
 .score-container p {
@@ -146,7 +147,8 @@ h2 {
 }
 #questions {
     font-family: "noto serif",sans-serif;
-    color: #2B2B2B;
+    color: #faf9f6;
+    text-shadow: 0 0 3px #2B2B2B, 0 0 5px #2B2B2B;
     font-size: 1rem;
     font-weight: bold;
     
