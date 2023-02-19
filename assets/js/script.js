@@ -34,14 +34,15 @@ function validateMessage() {
  //game starts with timer and first question
  let questionNumber =document.getElementById('question-number');
  let score = document.getElementById('your-score');
- let timer = document.getElementById('timer');
+ 
  let questionsLeft = document.getElementById('question-remaining');
  
  let userscore = 0;
  let qNumber = 1;
  let qLeft = 10;
  let currentIndex = 0;
- 
+ let counting;
+
  function playGame() {
     gamePage.style.display = "block";
     homePage.style.display = "none";
@@ -49,6 +50,8 @@ function validateMessage() {
     questionNumber.innerText = qNumber;
     score.innerText = userscore;
     questionsLeft.innerText= qLeft;
+    counting = setInterval(countDown,1000);
+    countDown();
 }
 function displayQuestions(question) {
     questionArea.innerText = question.question;
@@ -111,4 +114,16 @@ function gameOver() {
     gamePage.style.display = "none";
     gameoverPage.style.display = "block";
     
+}
+let timer = document.getElementById('timer');
+let noTime = document.getElementById('no-time-left');
+let secsLeft = 40;
+
+let noTimeleft = "Sorry, You've run out of time!";
+function countDown() {
+    timer.innerText = --secsLeft;
+    if (secsLeft <= 0) {
+        gameOver();
+        noTime.innerHTML = noTimeleft;
+    }
 }
