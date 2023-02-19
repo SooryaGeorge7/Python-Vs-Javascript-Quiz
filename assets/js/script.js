@@ -64,19 +64,8 @@ function checkAnswer(event) {
     let rightAnswer = questions[currentIndex].correct;
     
     
-    
-    
 
 }
-//function changeColor(event) {
-   // answerRelease = event.target;
-   // answerRelease.style.background = "#FAF9F6";
-   // gamepage.style.border = "0";
-   // currentIndex++;
-    //questionsLeft.innerText= --qLeft;
-    //questionNumber.innerText = ++qNumber;
-    //nextQuestion();
-//}
 let ansButton = document.getElementsByClassName('answer');
 for (let i = 0; i < ansButton.length; i++) {
     ansButton[i].addEventListener('click', checkAnswer);
