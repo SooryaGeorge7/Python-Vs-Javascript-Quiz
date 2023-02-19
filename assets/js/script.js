@@ -83,12 +83,14 @@ function checkAnswer(event) {
         //gamepage.style.border = "0.5rem solid #226F54";
         setTimeout(function(){
             answerSelected.style.background = "#faf9f6";
-            score.innerText = ++userscore;
-            currentIndex++;
             questionsLeft.innerText= --qLeft;
             questionNumber.innerText = ++qNumber;
+            score.innerText = ++userscore;
             nextQuestion()
         }, 1000);
+        
+        currentIndex++;
+            
         
         
     } else {
@@ -96,12 +98,12 @@ function checkAnswer(event) {
         //gamepage.style.border = "0.5rem solid #E04C4C";
         setTimeout(function(){
             answerSelected.style.background = "#faf9f6";
-            currentIndex++;
+            
             questionsLeft.innerText= --qLeft;
             questionNumber.innerText = ++qNumber;
             nextQuestion()
        }, 1000);
-       
+       currentIndex++;
     }
     
     
