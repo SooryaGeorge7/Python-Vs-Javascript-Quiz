@@ -53,6 +53,14 @@ h2 {
 #how-to-play {
     display:none
 }
+#how-to-play h2{
+    color: #faf9f6;
+    text-shadow: 0 0 3px #2B2B2B, 0 0 5px #2B2B2B;
+}
+#how-to-play p{
+    background:  radial-gradient(  rgba(250,249,246,5),rgba(250,249,246,0.1));
+    border-radius: 0.5rem;
+}
 #home-page a:hover{
     color:#FF9F00;
 }
@@ -187,9 +195,12 @@ h2 {
 }
 #gameover-heading {
     font-size: 1.25rem;
-    background: linear-gradient(to right, rgba(255,159,0,0.3), rgba(255,159,0,1));
     
     text-shadow: 0 0 3px #faf9f6, 0 0 5px #faf9f6;
+    border-radius: 0.5rem;
+}
+#results {
+    background:  radial-gradient(  rgba(250,249,246,5),rgba(250,249,246,0.4));
     border-radius: 0.5rem;
 }
 #show-score {
