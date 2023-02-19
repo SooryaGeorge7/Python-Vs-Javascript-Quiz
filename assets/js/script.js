@@ -57,3 +57,30 @@ function displayQuestions(question) {
     
 }
 
+let gamepage = document.getElementById('game-page');
+function checkAnswer(event) {
+    answerSelected = event.target;
+    let selected = answerSelected.innerText;
+    let rightAnswer = questions[currentIndex].correct;
+    
+    
+    
+    
+
+}
+//function changeColor(event) {
+   // answerRelease = event.target;
+   // answerRelease.style.background = "#FAF9F6";
+   // gamepage.style.border = "0";
+   // currentIndex++;
+    //questionsLeft.innerText= --qLeft;
+    //questionNumber.innerText = ++qNumber;
+    //nextQuestion();
+//}
+let ansButton = document.getElementsByClassName('answer');
+for (let i = 0; i < ansButton.length; i++) {
+    ansButton[i].addEventListener('click', checkAnswer);
+    //ansButton[i].addEventListener('pointercancel', changeColor);
+    //ansButton[i].addEventListener('pointerup', changeColor);
+    
+}
