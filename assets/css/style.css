@@ -47,6 +47,9 @@ h2 {
 #how-to-play {
     display:none
 }
+#home-page a:hover{
+    color:#FF9F00;
+}
 #go-back {
     font-size: 1rem;
     color: #faf9f6;
@@ -87,7 +90,10 @@ h2 {
     background-color: #faf9f6;
     border: 0.125rem solid #FF9F00;
 }
-
+#validation {
+    font-size: 0.75rem;
+    font-style: italic;
+}
 .play {
     font-size: 1.5rem;
     color: #faf9f6;
