@@ -116,7 +116,7 @@ for (let i = 0; i < ansButton.length; i++) {
 function nextQuestion() {
     if (currentIndex + 1 > slicedQuestions.length) {
         gameOver();
-        
+        clearInterval(counting);
     }else {
         displayQuestions(slicedQuestions[currentIndex]);
         
