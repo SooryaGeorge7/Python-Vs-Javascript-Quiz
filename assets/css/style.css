@@ -187,3 +187,13 @@ h2 {
 #show-score {
     font-weight: bold;
 }
+#playagain {
+    font-size: 1.2rem;
+    color: #faf9f6;
+    padding:0.5rem;
+    background-color: #FF9F00;
+    border-radius: 0.5rem;
+    border: 0.125rem solid #faf9f6;
+    margin-top: 1rem;
+    border-style: outset;
+}
