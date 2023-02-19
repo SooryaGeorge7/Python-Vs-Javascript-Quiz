@@ -80,10 +80,10 @@ function checkAnswer(event) {
     let rightAnswer = slicedQuestions[currentIndex].correct;
     if (selected === rightAnswer){
         answerSelected.style.background= "#226F54";
-        gamePage.style.border = "0.5rem solid #226F54";
+        gamePage.style.boxShadow = " 0 4px 8px 0 #226F54, 0 6px 20px 0 #226F54";
         setTimeout(function(){
             answerSelected.style.background = "#faf9f6";
-            gamePage.style.border = "none";
+            gamePage.style.boxShadow = "none";
             questionsLeft.innerText= --qLeft;
             questionNumber.innerText = ++qNumber;
             score.innerText = ++userscore;
@@ -96,10 +96,10 @@ function checkAnswer(event) {
         
     } else {
         answerSelected.style.background= "#E04C4C";
-        gamePage.style.border = "0.5rem solid #E04C4C";
+        gamePage.style.boxShadow = "0 4px 8px 0 #E04C4C, 0 6px 20px 0 #E04C4C";
         setTimeout(function(){
             answerSelected.style.background = "#faf9f6";
-            gamePage.style.border = "none";
+            gamePage.style.boxShadow = "none";
             questionsLeft.innerText= --qLeft;
             questionNumber.innerText = ++qNumber;
             nextQuestion()
