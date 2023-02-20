@@ -261,7 +261,9 @@ h2 {
     #description {
         font-size: 1.25rem;
     }
-    
+    .play, #playagain, #go-back, #how{
+        font-size: 1.25rem;
+    }
 
 }
 @media screen and (min-width: 768px){
