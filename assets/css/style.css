@@ -119,14 +119,16 @@ h2 {
     color: #faf9f6;
     padding:0.5rem;
     background-color: #FF9F00;
-    border-radius: 0.5rem;
-    border: 0.125rem solid #faf9f6;
+    border-radius: 2rem;
+    /*border: 0.125rem solid #faf9f6;*/
     margin-top: 1rem;
     border-style: outset;
 }
 .play:hover{
-    background-color:  rgba(255,159,0, 0.7);
+    background-color:  rgba(255,159,0, 0.8);
+    box-shadow:0 4px 8px 0 #faf9f6, 0 6px 20px 0 #faf9f6 ;
     cursor: pointer;
+    
 }
 
 .button {
