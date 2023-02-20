@@ -130,7 +130,7 @@ h2 {
     font-style: italic;
 }
 .play, #playagain, #go-back {
-    font-size: 1.5rem;
+    font-size: 1rem;
     color: #faf9f6;
     padding:0.5rem;
     background-color: #FF9F00;
@@ -146,11 +146,7 @@ h2 {
     
 }
 
-.button {
-    color:#faf9f6;
-    padding:0.25rem;
-    font-size: 1.25rem;
-}
+
 .score-container {
     display: flex;
     flex-direction: row;
@@ -258,6 +254,14 @@ h2 {
     
 }
 @media screen and (min-width: 481px){
+    
+    #home-question {
+        font-size: 1.25rem;
+    }
+    #description {
+        font-size: 1.25rem;
+    }
+    
 
 }
 @media screen and (min-width: 768px){
@@ -267,5 +271,5 @@ h2 {
 
 }
 @media screen and (min-width: 1200px){
-    
+
 }
