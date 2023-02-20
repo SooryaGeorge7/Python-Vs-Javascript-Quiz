@@ -273,6 +273,12 @@ h2 {
     .answer-btn button{
         font-size: 1.25rem;
     }
+    .gameover{
+        font-size: 1.25rem;
+    }
+    #gameover-heading {
+        font-size:2rem
+    }
 
 }
 @media screen and (min-width: 768px){
