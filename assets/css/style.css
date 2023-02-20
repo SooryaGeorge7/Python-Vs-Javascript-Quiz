@@ -74,13 +74,17 @@ h2 {
     background-color: #faf9f6;
     border-radius: 2rem;
     /*border: 0.125rem solid #faf9f6;*/
-    margin-top: 3rem;
+    margin-top: 1rem;
     border-style: outset;
     text-shadow: none;
 }
-#home-page a:hover{
-    color:#FF9F00;
+#how:hover {
+    background-color:  rgba(250,249,246, 0.8);
+    box-shadow:0 4px 8px 0 #FF9F00, 0 6px 20px 0 #FF9F00 ;
+    cursor: pointer;
+
 }
+
 /*#go-back {
     font-size: 1rem;
     color: #faf9f6;
@@ -251,5 +255,17 @@ h2 {
     position: absolute;
     top: 0;
     bottom: 0;
+    
+}
+@media screen and (min-width: 481px){
+
+}
+@media screen and (min-width: 768px){
+
+}
+@media screen and (min-width: 1024px){
+
+}
+@media screen and (min-width: 1200px){
     
 }
