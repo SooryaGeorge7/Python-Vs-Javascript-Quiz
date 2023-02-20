@@ -67,6 +67,17 @@ h2 {
     background:  radial-gradient(  rgba(250,249,246,5),rgba(250,249,246,0.1));
     border-radius: 0.5rem;
 }
+#how {
+    font-size: 1rem;
+    color: #FF9F00;
+    padding:0.5rem;
+    background-color: #faf9f6;
+    border-radius: 2rem;
+    /*border: 0.125rem solid #faf9f6;*/
+    margin-top: 3rem;
+    border-style: outset;
+    text-shadow: none;
+}
 #home-page a:hover{
     color:#FF9F00;
 }
