@@ -264,6 +264,15 @@ h2 {
     .play, #playagain, #go-back, #how{
         font-size: 1.25rem;
     }
+    .score-container p{
+        font-size: 1rem;
+    }
+    #questions {
+        font-size: 1.25rem;
+    }
+    .answer-btn button{
+        font-size: 1.25rem;
+    }
 
 }
 @media screen and (min-width: 768px){
