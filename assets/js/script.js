@@ -82,7 +82,7 @@ function checkAnswer(event) {
         answerSelected.style.background= "#226F54";
         gamePage.style.boxShadow = " 0 4px 8px 0 #226F54, 0 6px 20px 0 #226F54";
         setTimeout(function(){
-            answerSelected.style.background = "#faf9f6";
+            answerSelected.style.background = "radial-gradient(  rgba(250,249,246,5),rgba(250,249,246,0.4))";
             gamePage.style.boxShadow = "none";
             questionsLeft.innerText= --qLeft;
             questionNumber.innerText = ++qNumber;
@@ -98,7 +98,7 @@ function checkAnswer(event) {
         answerSelected.style.background= "#E04C4C";
         gamePage.style.boxShadow = "0 4px 8px 0 #E04C4C, 0 6px 20px 0 #E04C4C";
         setTimeout(function(){
-            answerSelected.style.background = "#faf9f6";
+            answerSelected.style.background ="radial-gradient(  rgba(250,249,246,5),rgba(250,249,246,0.4))";
             gamePage.style.boxShadow = "none";
             questionsLeft.innerText= --qLeft;
             questionNumber.innerText = ++qNumber;
