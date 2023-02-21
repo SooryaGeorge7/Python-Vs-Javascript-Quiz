@@ -373,11 +373,10 @@ h2 {
         font-size: 3.5rem;
     }
     
-    /*#username {
-        width: 11rem;
-        border: 0.125rem solid #2B2B2B;
-        font-size: 1.5rem;
-    }*/
+    #username {
+        width: 13rem;
+        
+    }
     .username-div label {
         font-size: 1.5rem;
     }
