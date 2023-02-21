@@ -282,9 +282,11 @@ h2 {
     }
     #how-to-play h2{
         font-size: 2rem;
+        margin-bottom: 1rem;
     }
     #how-to-play p{
         font-size: 1.25rem;
+        margin-bottom: 1rem;
     }
     .username-div{
         padding: 2rem;
