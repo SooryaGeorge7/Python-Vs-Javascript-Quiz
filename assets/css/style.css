@@ -331,6 +331,7 @@ h2 {
     }
     .answer-btn {
         flex-direction: row;
+        margin:4rem;
     
     }
     .answer-btn button {
@@ -341,12 +342,13 @@ h2 {
 
     }
     #questions {
-        font-size: 1.5rem;
-        margin: 2rem;
+        font-size: 1.75rem;
+        margin-top: 4rem;
     }
     #home-page, #gameover-area, #game-page, #how-to-play {
         width: 45rem;
-        margin: 4rem auto;
+        margin: 1rem auto;
+        
     }
     .gameover{
         font-size: 1.5rem;
