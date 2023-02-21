@@ -70,6 +70,7 @@ h2 {
 }
 #how-to-play p{
     padding:1rem;
+    font-weight: bold;
 }
 #how {
     font-size: 1rem;
