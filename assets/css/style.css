@@ -322,9 +322,25 @@ h2 {
     }
     .score-container {
         flex-wrap: nowrap;
+        padding:0.5rem;
     }
     .score-container p {
         font-size: 1.25rem;
+    }
+    .answer-btn {
+        flex-direction: row;
+    
+    }
+    .answer-btn button {
+        
+        font-size: 1.5rem;
+        padding:1rem;
+        width: 45%;
+
+    }
+    #questions {
+        font-size: 1.5rem;
+        margin: 2rem;
     }
 @media screen and (min-width: 1024px){
 
