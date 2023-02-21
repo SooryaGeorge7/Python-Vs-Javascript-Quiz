@@ -360,6 +360,63 @@ h2 {
     }
 }
 @media screen and (min-width: 1024px){
+    .play, #playagain, #go-back, #how{
+        font-size: 1.75rem;
+    }
+    #description {
+        font-size:1.5rem;
+    }
+    #home-question {
+        font-size:1.5rem;
+    }
+    .quiz-heading {
+        font-size: 3.5rem;
+    }
+    
+    /*#username {
+        width: 11rem;
+        border: 0.125rem solid #2B2B2B;
+        font-size: 1.5rem;
+    }*/
+    .username-div label {
+        font-size: 1.5rem;
+    }
+    /*.score-container {
+        flex-wrap: nowrap;
+        padding:0.5rem;
+    }
+    .score-container p {
+        font-size: 1.25rem;
+    }
+    .answer-btn {
+        flex-direction: row;
+        margin:4rem;
+    
+    }
+    .answer-btn button {
+        
+        font-size: 1.5rem;
+        padding:1rem;
+        width: 45%;
+
+    }
+    #questions {
+        font-size: 1.75rem;
+        margin-top: 4rem;
+    }
+    #home-page, #gameover-area, #game-page, #how-to-play {
+        width: 45rem;
+        margin: 1rem auto;
+        
+    }
+    .gameover{
+        font-size: 1.5rem;
+        padding:1rem;
+    }
+    #gameover-heading {
+        font-size:2.5rem;
+        padding:1rem;
+    }*/
 
 }
 @media screen and (min-width: 1200px){
