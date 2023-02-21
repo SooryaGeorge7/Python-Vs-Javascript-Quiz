@@ -300,6 +300,8 @@ h2 {
         padding: 2rem;
     }
     #home-page, #gameover-area, #game-page, #how-to-play{
+        width: 40rem;
+        margin: 4rem auto;
         padding: 2rem;
     }
 
@@ -342,6 +344,19 @@ h2 {
         font-size: 1.5rem;
         margin: 2rem;
     }
+    #home-page, #gameover-area, #game-page, #how-to-play {
+        width: 45rem;
+        margin: 4rem auto;
+    }
+    .gameover{
+        font-size: 1.5rem;
+        padding:1rem;
+    }
+    #gameover-heading {
+        font-size:2.5rem;
+        padding:1rem;
+    }
+}
 @media screen and (min-width: 1024px){
 
 }
