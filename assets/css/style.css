@@ -276,9 +276,11 @@ h2 {
     }
     .gameover{
         font-size: 1.25rem;
+        padding:1rem;
     }
     #gameover-heading {
-        font-size:2rem
+        font-size:2rem;
+        padding:1rem;
     }
     #how-to-play h2{
         font-size: 2rem;
