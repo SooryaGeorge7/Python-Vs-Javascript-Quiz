@@ -63,9 +63,13 @@ h2 {
     color: #faf9f6;
     text-shadow: 0 0 3px #2B2B2B, 0 0 5px #2B2B2B;
 }
-#how-to-play p{
+#how-to-play-info{
     background:  radial-gradient(  rgba(250,249,246,5),rgba(250,249,246,0.1));
     border-radius: 0.5rem;
+    
+}
+#how-to-play p{
+    padding:1rem;
 }
 #how {
     font-size: 1rem;
@@ -288,7 +292,8 @@ h2 {
     }
     #how-to-play p{
         font-size: 1.25rem;
-        margin-bottom: 1rem;
+        
+        
     }
     .username-div{
         padding: 2rem;
