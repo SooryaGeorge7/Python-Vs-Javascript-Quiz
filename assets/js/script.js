@@ -1,4 +1,4 @@
-let playButton = document.getElementById('start-game');
+
 let userName = document.getElementById('username');
 let homePage = document.getElementById('home-page');
 let gamePage = document.getElementById('game-page');
@@ -30,6 +30,9 @@ function validateMessage() {
     }
 
 }
+
+let playButton = document.getElementById('start-game');
+playButton.addEventListener('click', validateMessage);
 
  //game starts with timer and first question
  let questionNumber =document.getElementById('question-number');
