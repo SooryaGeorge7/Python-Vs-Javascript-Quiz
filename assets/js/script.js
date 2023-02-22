@@ -13,8 +13,10 @@ let howToplay = document.getElementById('how-to-play');
 function howtoPlay(){
     howToplay.style.display = "block";
     homePage.style.display = "none";
-
 }
+let howTo = document.getElementById('how');
+howTo.addEventListener('click', howtoPlay);
+
 //Validate username
 let usernameLength = "*Please enter a name longer than 2 charectors*";
 let checkSpace = "*Please enter a name with no spaces*";
