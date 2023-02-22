@@ -39,7 +39,7 @@ h2 {
 
 #home-page, #gameover-area, #game-page, #how-to-play {
     
-    background: radial-gradient(  rgba(255,159,0,5),rgba(255,159,0,0.3));
+    background: radial-gradient(  rgba(255,159,0, 5),rgba(255,159,0,0.3));
     margin: 2rem;
     text-align: center;
     padding: 1rem;
@@ -251,10 +251,10 @@ h2 {
     cursor: pointer;
 }*/
 #video {
-    width: 100%;
+    min-width: 100%;
     height: 50rem;
     object-fit: cover;
-    position: absolute;
+    position: fixed;
     top: 0;
     bottom: 0;
     
@@ -331,7 +331,7 @@ h2 {
     }
     .answer-btn {
         flex-direction: row;
-        margin:4rem;
+        margin:2rem;
     
     }
     .answer-btn button {
