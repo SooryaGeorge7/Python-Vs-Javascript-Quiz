@@ -439,8 +439,8 @@ h2 {
     }
     
     #username {
-        width: 13rem;
-        height: 2.5rem;
+        width: 15.5rem;
+        height: 3rem;
     }
     .username-div label {
         font-size: 1.75rem;
@@ -450,7 +450,7 @@ h2 {
         
     }
     #how-to-play p{
-        font-size: 1.5rem;
+        font-size: 1.75rem;
         
         
     }
