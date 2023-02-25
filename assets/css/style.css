@@ -43,7 +43,7 @@ h2 {
     margin: 2rem;
     text-align: center;
     padding: 1rem;
-    border-radius: 0.5rem;
+    border-radius: 2rem;
     position: relative;
     
 }
@@ -178,6 +178,7 @@ h2 {
     font-weight: bold;
     
 }
+
 
 #questions {
     font-family: "noto serif",sans-serif;
