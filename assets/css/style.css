@@ -425,5 +425,59 @@ h2 {
 
 }
 @media screen and (min-width: 1200px){
+    .play, #playagain, #go-back, #how{
+        font-size: 2rem;
+    }
+    #description {
+        font-size:1.75rem;
+    }
+    #home-question {
+        font-size:1.75rem;
+    }
+    .quiz-heading {
+        font-size: 3.5rem;
+    }
+    
+    #username {
+        width: 13rem;
+        height: 2.5rem;
+    }
+    .username-div label {
+        font-size: 1.75rem;
+    }
+    #how-to-play h2{
+        font-size: 3rem;
+        
+    }
+    #how-to-play p{
+        font-size: 1.5rem;
+        
+        
+    }
+    
+    .score-container p {
+        font-size: 1.5rem;
+    }
+    
+    .answer-btn button {
+        
+        font-size: 1.5rem;
+        padding:1rem;
+        width: 45%;
+
+    }
+    #questions {
+        font-size: 2rem;
+        margin-top: 4rem;
+    }
+    #home-page, #gameover-area, #game-page, #how-to-play {
+        width: 55rem;
+        margin: 1rem auto;
+        
+    }
+    .gameover{
+        font-size: 1.75rem;
+        padding:1rem;
+    }
 
 }
