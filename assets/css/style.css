@@ -302,8 +302,8 @@ h2 {
         padding: 2rem;
     }
     #home-page, #gameover-area, #game-page, #how-to-play{
-        width: 40rem;
-        margin: 4rem auto;
+        
+        
         padding: 2rem;
     }
 
@@ -408,7 +408,7 @@ h2 {
         margin-top: 4rem;
     }
     #home-page, #gameover-area, #game-page, #how-to-play {
-        width: 45rem;
+        width: 55rem;
         margin: 1rem auto;
         
     }
