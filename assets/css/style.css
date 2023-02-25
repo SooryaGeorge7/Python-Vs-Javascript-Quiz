@@ -201,10 +201,12 @@ h2 {
     padding: 0.5rem;
     border-radius: 0.5rem;
     background:  radial-gradient(  rgba(250,249,246,5),rgba(250,249,246,0.4));
+    border-style: outset;
 }
 .answer-btn button:hover {
     color:rgba(43, 43, 43, 0.7);
     box-shadow:0 4px 8px 0 #FF9F00, 0 6px 20px 0 #FF9F00;
+    border-style: inset;
 }
 
 #game-page, #gameover-area {
