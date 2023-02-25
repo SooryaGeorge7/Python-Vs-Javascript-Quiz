@@ -178,13 +178,14 @@ h2 {
     font-weight: bold;
     
 }
+
 #questions {
     font-family: "noto serif",sans-serif;
     color: #2B2B2B;
     /*text-shadow: 0 0 3px #2B2B2B, 0 0 5px #2B2B2B;*/
     font-size: 1rem;
     font-weight: bold;
-    
+    text-shadow: 0 0 3px #faf9f6, 0 0 5px #faf9f6;
 }
 .answer-btn {
     display:flex;
