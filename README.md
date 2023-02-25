@@ -134,10 +134,34 @@ I ensured to provide sufficient accessibility throughout the making of this game
 
 
 ## Deployment & Local Development
+
 ### Deployment
+To create a live website of Python Vs Javascript Quiz, deployment was done using github pages. The step by step process is shown below:
+1. Log in or Sign up to github.
+2. Find the repository for this project,Python-Vs-JavaScript Quiz.(Can be found under top repositories on the left hand side)
+3. Click on Settings link that is displayed above and left to the green gitpod button.
+4. Click on Pages link under code and automation in the navigation bar on the left hand side.
+5. Under Build and Deployment, click on the branch drop down menu and select main and make sure the select folder drop down is selected on root.
+6. Now click save and wait a few minutes.
+7. Refresh the page, and the url for your live website will be shown under the heading, GitHub Pages.
+8. Deployment is now complete.
+
 ### Local Development
 #### How to Fork
-#### How to CLone
+To fork the Python-Vs-Javascript-Quiz Repository: 
+1. Log in or Sign up to github.
+2. Find the repository for this project, SooryaGeorge7/Python-Vs-Javascript-Quiz
+3. Click the fork button on top right corner. 
+#### How to Clone
+To clone the Python-Vs-Javascript-Quiz Repository: 
+1. Log in or Sign up to github.
+2. Find the repository for this proect, SooryaGeorge7/Python-Vs-Javascript-Quiz.
+3. Click on Code button just left to the green gitpod button.
+4. Select what you would like to clone with (HTTPS/SSH/GitHub CLI) and copy the link shown below.
+5. Open the terminal in your code editor(eg. Gitpod) and change the current working directory to the location you want to use for cloned directory.
+6. In the terminal type in "git clone" and paste the link you copied in step 4 above. Press enter.
+7. Cloning is now completed.
+
 ## Testing
 ### Solved Bugs
 ### Known Bugs
