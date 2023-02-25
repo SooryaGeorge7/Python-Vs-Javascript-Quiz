@@ -436,7 +436,7 @@ h2 {
         font-size:1.75rem;
     }
     .quiz-heading {
-        font-size: 3.5rem;
+        font-size: 5rem;
     }
     
     #username {
@@ -469,8 +469,7 @@ h2 {
         
     }
     .gameover{
-        font-size: 1.75rem;
-        padding:1rem;
+        font-size: 2rem;
     }
 
 }
