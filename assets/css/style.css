@@ -50,8 +50,8 @@ h2 {
 #description {
     
     font-weight: bold;
-    color: #faf9f6;
-    text-shadow: 0 0 3px #2B2B2B, 0 0 5px #2B2B2B;
+    color: #2B2B2B;
+    /*text-shadow: 0 0 3px #2B2B2B, 0 0 5px #2B2B2B;*/
 }
 #home-question {
     font-size: 1rem;

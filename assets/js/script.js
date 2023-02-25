@@ -58,6 +58,9 @@ playButton.addEventListener('click', validateMessage);
     counting = setInterval(countDown,1000);
     countDown();
 }
+
+
+
 let i = questions.length;
  while (--i > 0){
     let randomI = Math.floor(Math.random() * (i+1));
@@ -78,7 +81,7 @@ function displayQuestions(question) {
     
 }
 
-
+let answerSelected;
 function checkAnswer(event) {
     answerSelected = event.target;
     let selected = answerSelected.innerText;
@@ -92,7 +95,7 @@ function checkAnswer(event) {
             questionsLeft.innerText= --qLeft;
             questionNumber.innerText = ++qNumber;
             score.innerText = ++userscore;
-            nextQuestion()
+            nextQuestion();
         }, 1000);
         
         currentIndex++;
@@ -107,7 +110,7 @@ function checkAnswer(event) {
             gamePage.style.boxShadow = "none";
             questionsLeft.innerText= --qLeft;
             questionNumber.innerText = ++qNumber;
-            nextQuestion()
+            nextQuestion();
        }, 1000);
        currentIndex++;
     }
@@ -134,7 +137,7 @@ function nextQuestion() {
 function gameOver() {
     gamePage.style.display = "none";
     gameoverPage.style.display = "block";
-    showScore()
+    showScore();
 }
 let timer = document.getElementById('timer');
 let noTime = document.getElementById('no-time-left');
@@ -150,19 +153,19 @@ function countDown() {
 }
 
 let showScores = document.getElementById('show-score');
-let performance = document.getElementById('performance');
+let performances = document.getElementById('performance');
 function showScore() {
     showScores.innerHTML = `Your Score: ${userscore}/10`;
     if (userscore == 10) {
-        performance.innerHTML = `Congraturlations! You really know your stuff ${userName.value}!`;
+        performances.innerHTML = `Congraturlations! You really know your stuff ${userName.value}!`;
 
     }else if (userscore >= 7){
-        performance.innerHTML = `Well done ${userName.value}! This is a good score but there is still room for improvement`;
+        performances.innerHTML = `Well done ${userName.value}! This is a good score but there is still room for improvement`;
 
     }else if (userscore < 7, userscore >= 5){
-        performance.innerHTML = `${userName.value}, You've just passed but you can definetly do better! `;
+        performances.innerHTML = `${userName.value}, You've just passed but you can definetly do better! `;
     }
     else {
-        performance.innerHTML = `Oh no, someone needs to revise their notes!Try again ${userName.value}? `;
+        performances.innerHTML = `Oh no, someone needs to revise their notes!Try again ${userName.value}? `;
     }
 }
