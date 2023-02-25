@@ -76,7 +76,7 @@ h2 {
     font-size: 1rem;
     color: #FF9F00;
     padding:0.5rem;
-    background-color: #faf9f6;
+    background-color: rgba(43, 43, 43, 0.8);
     border-radius: 2rem;
     /*border: 0.125rem solid #faf9f6;*/
     margin-top: 1rem;
