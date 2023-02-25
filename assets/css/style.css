@@ -163,7 +163,7 @@ h2 {
     /*background-color: #FF9F00;*/
     
     /*padding:0.25rem;*/
-    background:  radial-gradient(  rgba(193,193,193,5),rgba(193,193,193,0.1));
+   /* background:  radial-gradient(  rgba(193,193,193,5),rgba(193,193,193,0.1));*/
     border-radius: 0.5rem;
 }
 .score-container p {
@@ -173,10 +173,19 @@ h2 {
     /*padding:0.25rem;*/
     /*border-bottom: 0.125rem solid #faf9f6;/
     /*border-radius: 0.5rem;*/
-    width:45%;
+    margin: 0.5rem;
+   /* background:  radial-gradient(  rgba(193,193,193,5),rgba(193,193,193,0.1));*/
+    width:42%;
+    color: #FF9F00;
+    background-color: rgba(43, 43, 43, 0.8);
     font-size: 0.8rem;
-    font-weight: bold;
+    border-radius: 0.5rem;
+    border: 0.125rem solid #faf9f6;
     
+    
+}
+.score-container span {
+    color: #faf9f6;
 }
 
 
