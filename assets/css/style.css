@@ -60,8 +60,8 @@ h2 {
     display:none
 }
 #how-to-play h2{
-    color: #faf9f6;
-    text-shadow: 0 0 3px #2B2B2B, 0 0 5px #2B2B2B;
+    color: #2B2B2B;
+    text-shadow: 0 0 3px #faf9f6, 0 0 5px #faf9f6;
 }
 #how-to-play-info{
     background:  radial-gradient(  rgba(250,249,246,5),rgba(250,249,246,0.1));
@@ -180,8 +180,8 @@ h2 {
 }
 #questions {
     font-family: "noto serif",sans-serif;
-    color: #faf9f6;
-    text-shadow: 0 0 3px #2B2B2B, 0 0 5px #2B2B2B;
+    color: #2B2B2B;
+    /*text-shadow: 0 0 3px #2B2B2B, 0 0 5px #2B2B2B;*/
     font-size: 1rem;
     font-weight: bold;
     
