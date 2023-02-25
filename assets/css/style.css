@@ -200,6 +200,7 @@ h2 {
     text-transform: uppercase;
     padding: 0.5rem;
     border-radius: 0.5rem;
+    color: #2B2B2B;
     background:  radial-gradient(  rgba(250,249,246,5),rgba(250,249,246,0.4));
     border-style: outset;
 }

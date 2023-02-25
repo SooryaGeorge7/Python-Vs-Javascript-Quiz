@@ -91,6 +91,9 @@ function checkAnswer(event) {
         gamePage.style.boxShadow = " 0 4px 8px 0 #226F54, 0 6px 20px 0 #226F54";
         setTimeout(function(){
             answerSelected.style.background = "radial-gradient(  rgba(250,249,246,5),rgba(250,249,246,0.4))";
+            answerSelected.style.borderStyle = "outset";
+            answerSelected.style.color ="#2B2B2B";
+            answerSelected.style.boxShadow = "none";
             gamePage.style.boxShadow = "none";
             questionsLeft.innerText= --qLeft;
             questionNumber.innerText = ++qNumber;
