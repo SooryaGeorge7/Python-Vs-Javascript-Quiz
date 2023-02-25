@@ -200,12 +200,11 @@ h2 {
     text-transform: uppercase;
     padding: 0.5rem;
     border-radius: 0.5rem;
-    border: 0.125rem solid #2B2B2B;
     background:  radial-gradient(  rgba(250,249,246,5),rgba(250,249,246,0.4));
 }
 .answer-btn button:hover {
-    border: 0.125rem solid rgba(43, 43, 43, 0.7);
-    color:rgba(43, 43, 43, 0.7)
+    color:rgba(43, 43, 43, 0.7);
+    box-shadow:0 4px 8px 0 #FF9F00, 0 6px 20px 0 #FF9F00;
 }
 
 #game-page, #gameover-area {
