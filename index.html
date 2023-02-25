@@ -24,6 +24,7 @@
             <video id="video" src="assets/videos/particles-27669.mp4" aria-label="Background video" playsinline="" autoplay="" muted="" loop=""></video>
         </div>
     </header>
+    <!--The first page in game-->
     <section id="home-page">
         <div id="description">
             <h2 id="home-question"><i class="fa-solid fa-magnifying-glass"></i> Are you a newbie to Python 
@@ -40,10 +41,11 @@
             <p id="validation"></p>
 
             <button class="play" id="start-game" >
-                <!--<p class="button">-->  Play Quiz!   <i class="fa-solid fa-circle-play"></i><!--</p>-->
+                Play Quiz!   <i class="fa-solid fa-circle-play"></i>
             </button>
         </div>
     </section>
+    <!--This section is shown only after clicking how-to-play button-->
     <section id ="how-to-play">
         <div>
             <h2>How to Play</h2>
@@ -54,17 +56,15 @@
                  <p>Can you take on the challenge? </p>
             </div>
             <button id = "go-back" onclick="window.location.reload()"> Go Back </button>
-            
         </div>
-
     </section>
+    <!--The game page is shown after succesfully clicking play quiz button-->
     <section id="game-page">
         <div class="score-container">
             <p>Question:<span id="question-number"></span></p>
             <p>Timer:<span id="timer"></span> s</p>
             <p>Score:<span id="your-score"></span></p>
-            <p>Remaining:<span id="question-remaining"></span></p>
-            
+            <p>Remaining:<span id="question-remaining"></span></p> 
         </div>
         <div class="choose-container">
             <h2 id="questions"> A question</h2>
@@ -74,6 +74,7 @@
             </div>
         </div>
     </section>
+    <!--This section is shown after the game ends or if time runs out-->
     <section id="gameover-area">
         <div class="gameover" id="no-time-left"></div>
         <div id="results">
@@ -83,10 +84,11 @@
         </div>
         <div>
             <button id="playagain" onclick="window.location.reload()">Play Again <i class="fa-solid fa-rotate-right"></i></button>
-            
         </div>
     </section>
+    <!--Font awesome kit-->
     <script src="https://kit.fontawesome.com/a8dca34502.js" crossorigin="anonymous"></script>
+    <!--Javascript files-->
     <script src="assets/js/question.js"></script>
     <script src="assets/js/script.js"></script>
 </body>
