@@ -26,7 +26,7 @@ body {
 .quiz-heading {
     text-align: center;
     /* top: 1rem; */
-    margin-top: 3rem;
+    margin-top: 1rem;
     font-family: "noto serif",sans-serif;
     /*Learnt to style heading here: https://blog.logrocket.com/five-cool-css-header-styles-with-cross-browser-compatibility/*/
     background-clip: text;
@@ -45,7 +45,7 @@ h2 {
 #home-page, #gameover-area, #game-page, #how-to-play { 
     /*Learnt about radial gradients here https://www.w3schools.com/css/css3_gradients_radial.asp*/
     background: radial-gradient(  rgba(255,159,0, 5),rgba(255,159,0,0.3));
-    margin: 2rem;
+    margin: 1rem;
     text-align: center;
     padding: 1rem;
     border-radius: 2rem;
@@ -75,7 +75,7 @@ h2 {
     border-radius: 0.5rem;
 }
 #how-to-play p{
-    padding:1rem;
+    padding:0.5rem;
     font-weight: bold;
 }
 #how {
@@ -296,7 +296,7 @@ h2 {
     color: transparent;
     font-size: 0.75rem;
     width: 100%;
-    padding-bottom: 0.5rem;
+    
 }
 /*Tablets*/
 @media screen and (min-width: 481px){
@@ -334,9 +334,7 @@ h2 {
     #how-to-play p{
         font-size: 1.25rem;
     }
-    .username-div{
-        padding: 2rem;
-    }
+    
     #home-page, #gameover-area, #game-page, #how-to-play{   
         padding: 2rem;
     }
@@ -354,7 +352,7 @@ h2 {
         font-size: 1.5rem;
     }
     .username-div{
-        padding: 4rem;
+        padding: 3rem;
     }
     #username {
         width: 11rem;
@@ -409,7 +407,7 @@ h2 {
         font-size:1.5rem;
     }
     .quiz-heading {
-        font-size: 3.5rem;
+        font-size: 3rem;
     }
     
     #username {
@@ -463,9 +461,7 @@ h2 {
     #home-question {
         font-size:1.75rem;
     }
-    .quiz-heading {
-        font-size: 5rem;
-    } 
+    
     #username {
         width: 15.5rem;
         height: 3rem;
