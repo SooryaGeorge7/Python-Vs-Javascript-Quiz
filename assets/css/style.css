@@ -118,7 +118,7 @@ h2 {
     background:  radial-gradient(  rgba(193,193,193,5),rgba(193,193,193,0.1));  
     padding: 1rem;
     margin-top: 1rem;
-    border-radius: 0.5rem;
+    border-radius: 1rem;
 }
 #username {
     width: 9rem;
