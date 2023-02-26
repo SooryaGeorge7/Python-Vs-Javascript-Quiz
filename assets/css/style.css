@@ -338,22 +338,22 @@ h2 {
     }/*
     .answer-btn button{
         font-size: 1.25rem;
-    }
+    }*/
     .gameover{
         font-size: 1.25rem;
         padding:1rem;
     }
     #gameover-heading {
-        font-size:2rem;
+        font-size:1.75rem;
         padding:1rem;
-    }*/
+    }/*
     #how-to-play-info{
         margin:1rem
-    }/*
-    #how-to-play p{
-        font-size: 1rem;
+    }*/
+    #how-to-play>div{
+        margin:2rem auto;
     }
-    */
+    
     #home-page, #gameover-area, #game-page, #how-to-play{   
         padding: 1rem;
         height: 20rem;
