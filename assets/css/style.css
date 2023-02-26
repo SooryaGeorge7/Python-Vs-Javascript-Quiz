@@ -176,7 +176,7 @@ h2 {
 .score-container p {
     /*color: #faf9f6;*/
     padding:0.25rem;
-    text-transform: uppercase;
+    
     /*padding:0.25rem;*/
     /*border-bottom: 0.125rem solid #faf9f6;/
     /*border-radius: 0.5rem;*/
@@ -275,7 +275,29 @@ h2 {
     /* top: 0; */
     bottom: 0;
 }
-
+#copyright {
+    /*position:relative;
+    text-align: center;
+    background-clip: text;
+    -webkit-background-clip: text;
+    background-image: linear-gradient(45deg, #faf9f6, #ff9f00);
+    color: transparent;
+    font-size: 0.75rem;
+    padding-bottom: 0.5rem;*/
+    position: absolute;
+    text-align: center;
+    /* margin: 2rem; */
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    background-image: linear-gradient(45deg, #faf9f6, #ff9f00);
+    color: transparent;
+    font-size: 0.75rem;
+    width: 100%;
+    padding-bottom: 0.5rem;
+}
 /*Tablets*/
 @media screen and (min-width: 481px){
     
@@ -317,6 +339,11 @@ h2 {
     }
     #home-page, #gameover-area, #game-page, #how-to-play{   
         padding: 2rem;
+    }
+    #copyright {
+        
+        font-size: 1rem;
+        
     }
 
 }
