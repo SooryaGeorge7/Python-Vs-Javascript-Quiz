@@ -332,10 +332,10 @@ h2 {
     }
     .score-container p{
         font-size: 1rem;
-    }
+    }*/
     #questions {
-        font-size: 1.25rem;
-    }
+        padding-bottom: 0.5rem;
+    }/*
     .answer-btn button{
         font-size: 1.25rem;
     }
@@ -346,11 +346,10 @@ h2 {
     #gameover-heading {
         font-size:2rem;
         padding:1rem;
-    }
-    #how-to-play h2{
-        font-size: 2rem;
-        margin-bottom: 1rem;
-    }
+    }*/
+    #how-to-play-info{
+        margin:1rem
+    }/*
     #how-to-play p{
         font-size: 1rem;
     }
