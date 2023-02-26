@@ -47,9 +47,11 @@ h2 {
     background: radial-gradient(  rgba(255,159,0, 5),rgba(255,159,0,0.3));
     margin: 1rem;
     text-align: center;
-    padding: 1rem;
+    padding: 0.5rem;
     border-radius: 2rem;
-    position: relative;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
 }
 
 /*Home page description for user*/
@@ -72,7 +74,7 @@ h2 {
 }
 #how-to-play-info{
     background:  radial-gradient(  rgba(250,249,246,5),rgba(250,249,246,0.1));
-    border-radius: 0.5rem;
+    border-radius: 1rem;
 }
 #how-to-play p{
     padding:0.5rem;
@@ -301,7 +303,7 @@ h2 {
 /*Tablets*/
 @media screen and (min-width: 481px){
     
-    .quiz-heading {
+    /*.quiz-heading {
         font-size: 2.5rem;
     }
     #home-question {
@@ -345,17 +347,17 @@ h2 {
         
         font-size: 1rem;
         
-    }
+    }*/
 
 }
 
 /*Breakpoint for small screens and laptop*/
 @media screen and (min-width: 768px){
-    .play, #playagain, #go-back, #how{
+    /*.play, #playagain, #go-back, #how{
         font-size: 1.5rem;
     }
     .username-div{
-        padding: 3rem;
+        padding: 2rem;
     }
     #username {
         width: 11rem;
@@ -397,10 +399,10 @@ h2 {
         font-size:2.5rem;
         padding:1rem;
     }
-}
+}*/
 /*Breakpoint for desktop and larger screens*/
 @media screen and (min-width: 1024px){
-    .play, #playagain, #go-back, #how{
+    /*.play, #playagain, #go-back, #how{
         font-size: 1.75rem;
     }
     #description {
@@ -438,8 +440,7 @@ h2 {
 
     }
     #questions {
-        font-size: 2rem;
-        margin-top: 4rem;
+        margin-top: 1rem;
     }
     #home-page, #gameover-area, #game-page, #how-to-play {
         width: 55rem;
@@ -452,10 +453,10 @@ h2 {
     }
     
 
-}
+}*/
 /*Breakpoint for xxx large screens or tv*/
 @media screen and (min-width: 1200px){
-    .play, #playagain, #go-back, #how{
+    /*.play, #playagain, #go-back, #how{
         font-size: 2rem;
     }
     #description {
@@ -482,7 +483,7 @@ h2 {
         font-size: 2rem; 
     }
     #questions {
-        font-size: 3rem;
+        
     }
     #home-page, #gameover-area, #game-page, #how-to-play {
         width: 65rem;   
@@ -491,4 +492,4 @@ h2 {
         font-size: 2rem;
     }
 
-}
+}*/
