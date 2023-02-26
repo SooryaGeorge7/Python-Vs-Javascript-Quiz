@@ -33,7 +33,7 @@ body {
     -webkit-background-clip: text;
     background-image: linear-gradient(45deg, #faf9f6, #ff9f00);
     color: transparent;
-    font-size: 3rem;
+    font-size: 2rem;
     position:relative;
     z-index: 1;
 }
@@ -301,6 +301,9 @@ h2 {
 /*Tablets*/
 @media screen and (min-width: 481px){
     
+    .quiz-heading {
+        font-size: 2.5rem;
+    }
     #home-question {
         font-size: 1.25rem;
     }
@@ -332,11 +335,11 @@ h2 {
         margin-bottom: 1rem;
     }
     #how-to-play p{
-        font-size: 1.25rem;
+        font-size: 1rem;
     }
     
     #home-page, #gameover-area, #game-page, #how-to-play{   
-        padding: 2rem;
+        padding: 1rem;
     }
     #copyright {
         
