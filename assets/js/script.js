@@ -95,7 +95,7 @@ slicedQuestions = questions.slice(0, maxTen);
  //It calls a function to display questions, countdown , and displays the starting value for score container in game page
  //Learn how to start a countdown using setInterval here https://www.educative.io/answers/how-to-create-a-countdown-timer-using-javascript
  function playGame() {
-    gamePage.style.display = "block";
+    gamePage.style.display = "flex";
     homePage.style.display = "none";
     displayQuestions(slicedQuestions[currentIndex]);
     questionNumber.innerText = qNumber;
@@ -181,7 +181,7 @@ function nextQuestion() {
 //Function that displays game over page and calls out showScore function
 function gameOver() {
     gamePage.style.display = "none";
-    gameoverPage.style.display = "block";
+    gameoverPage.style.display = "flex";
     showScore();
 }
 
