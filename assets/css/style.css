@@ -58,6 +58,7 @@ h2 {
 #description { 
     font-weight: bold;
     color: #2B2B2B;
+    padding-top: 0.5rem;
     /*text-shadow: 0 0 3px #2B2B2B, 0 0 5px #2B2B2B;*/
 }
 #home-question {
@@ -120,7 +121,7 @@ h2 {
     background:  radial-gradient(  rgba(193,193,193,5),rgba(193,193,193,0.1));  
     padding: 1rem;
     margin-top: 1rem;
-    border-radius: 1rem;
+    border-radius: 2rem;
 }
 #username {
     width: 9rem;
