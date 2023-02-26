@@ -83,6 +83,7 @@ h2 {
 #how-to-play p{
     padding:0.5rem;
     font-weight: bold;
+    font-size: 0.75rem;
 }
 #how {
     font-size: 1rem;
@@ -229,9 +230,9 @@ h2 {
     border-style: outset;
 }
 .answer-btn button:hover {
-    color:rgba(43, 43, 43, 0.7);
-    box-shadow:0 4px 8px 0 #FF9F00, 0 6px 20px 0 #FF9F00;
-    border-style: inset;
+    color:rgba(43, 43, 43, 0.7) !important;
+    box-shadow:0 4px 8px 0 #FF9F00, 0 6px 20px 0 #FF9F00 !important;
+    border-style: inset !important;
 }
 
 /*set these pages to none, this will be changed in functions in javascript file*/
@@ -259,7 +260,8 @@ h2 {
 
 #results {
     background: radial-gradient(  rgba(193,193,193,5),rgba(193,193,193,0.1));
-    border-radius: 0.5rem;
+    border-radius: 1rem;
+    margin:0.5rem;
 }
 
 #show-score {
