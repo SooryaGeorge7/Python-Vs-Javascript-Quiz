@@ -26,7 +26,7 @@ body {
 .quiz-heading {
     text-align: center;
     /* top: 1rem; */
-    margin-top: 1rem;
+    /*margin-top: 1rem;*/
     font-family: "noto serif",sans-serif;
     /*Learnt to style heading here: https://blog.logrocket.com/five-cool-css-header-styles-with-cross-browser-compatibility/*/
     background-clip: text;
@@ -50,12 +50,12 @@ h2 {
     text-align: center;
     padding: 0.5rem;
     border-radius: 2rem;
-    position: absolute;
-    top: 50%;
+    position: relative;
+    /*top: 50%;*/
     width:80%;
-    left:50%;
+    /*left:50%;
     /*transform: translateY(-50%);*/
-    transform: translate(-50%, -50%);
+   /* transform: translate(-50%, -50%);*/
 }
 
 /*Home page description for user*/
