@@ -344,14 +344,14 @@ h2 {
         padding:1rem;
     }
     #gameover-heading {
-        font-size:1.75rem;
+        font-size:1.5rem;
         padding:1rem;
-    }/*
+    }
     #how-to-play-info{
-        margin:1rem
-    }*/
+        margin:1rem;
+    }
     #how-to-play>div{
-        margin:2rem auto;
+       
     }
     
     #home-page, #gameover-area, #game-page, #how-to-play{   
@@ -413,8 +413,8 @@ h2 {
     #gameover-heading {
         font-size:2.5rem;
         padding:1rem;
-    }
-}*/
+    }*/
+}
 /*Breakpoint for desktop and larger screens*/
 @media screen and (min-width: 1024px){
     /*.play, #playagain, #go-back, #how{
