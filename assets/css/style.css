@@ -405,7 +405,7 @@ h2 {
     }
     .username-div label {
         font-size: 1.25rem;
-    }
+    }*/
     .score-container {
         flex-wrap: nowrap;
         padding:0.5rem;
@@ -424,8 +424,12 @@ h2 {
     }
     #questions {
         font-size: 1.75rem;
-        margin-top: 4rem;
+        
     }
+    .score-container p {
+        font-size: 1.125rem;
+        margin:0.25rem;
+    }/*
     #home-page, #gameover-area, #game-page, #how-to-play {
         width: 45rem;
         margin: 1rem auto;   
