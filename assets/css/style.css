@@ -474,27 +474,27 @@ h2 {
     .username-div label {
         font-size: 1.25rem;
     }
-    /*
+    
     #how-to-play h2{
-        font-size: 3rem;
-    }
+        font-size: 2.5rem;
+    }/*
     #how-to-play p{
         font-size: 1.5rem;
     }
-    
+    */
     .score-container p {
         font-size: 1.5rem;
     }
-    
+    /*
     .answer-btn button { 
         font-size: 1.5rem;
         padding:1rem;
         width: 45%;
 
-    }
+    }*/
     #questions {
-        margin-top: 1rem;
-    }
+        font-size: 2rem;
+    }/*
     #home-page, #gameover-area, #game-page, #how-to-play {
         width: 55rem;
         margin: 1rem auto;
