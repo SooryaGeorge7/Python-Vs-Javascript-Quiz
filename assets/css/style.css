@@ -376,9 +376,18 @@ h2 {
 
 /*Breakpoint for small screens and laptop*/
 @media screen and (min-width: 768px){
-    /*.play, #playagain, #go-back, #how{
-        font-size: 1.5rem;
+    .quiz-heading {
+        font-size: 3rem;
     }
+    #description {
+        font-size:1.25rem;
+    }
+    #home-question {
+        font-size:1.25rem;
+    }
+    .play, #playagain, #go-back, #how{
+        font-size: 1.25rem;
+    }/*
     .username-div{
         padding: 2rem;
     }
