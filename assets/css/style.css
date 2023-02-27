@@ -378,6 +378,7 @@ h2 {
 @media screen and (min-width: 768px){
     .quiz-heading {
         font-size: 3rem;
+        top:0rem;
     }
     #description {
         font-size:1.25rem;
@@ -386,6 +387,12 @@ h2 {
         font-size:1.25rem;
     }
     .play, #playagain, #go-back, #how{
+        font-size: 1.25rem;
+    }
+    #how-to-play h2{
+        font-size: 2rem;
+    }
+    #how-to-play p{
         font-size: 1.25rem;
     }/*
     .username-div{
