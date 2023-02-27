@@ -162,7 +162,7 @@ h2 {
     background-color: #FF9F00;
     border-radius: 2rem;
     /*border: 0.125rem solid #faf9f6;*/
-    margin: 1rem;
+    margin: 0.5rem;
     border-style: outset;
 }
 
@@ -328,10 +328,10 @@ h2 {
     }
     #description {
         font-size: 1.25rem;
-    }
+    }*/
     .play, #playagain, #go-back, #how{
-        font-size: 1.25rem;
-    }
+        margin:0.5rem;
+    }/*
     .score-container p{
         font-size: 1rem;
     }*/
@@ -352,6 +352,9 @@ h2 {
     #how-to-play-info{
         margin:1rem;
     }
+    #how-to-play-info p{
+        font-size: 1rem;
+    }
     #how-to-play>div{
        
     }
@@ -365,6 +368,7 @@ h2 {
     #copyright {
         
         font-size: 1.125rem;
+        
         
     }
 
