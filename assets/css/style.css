@@ -445,9 +445,18 @@ h2 {
 }
 /*Breakpoint for desktop and larger screens*/
 @media screen and (min-width: 1024px){
-    /*.play, #playagain, #go-back, #how{
-        font-size: 1.75rem;
+    .quiz-heading {
+        font-size: 4rem;
     }
+    #description {
+        font-size:1.5rem;
+    }
+    #home-question {
+        font-size:1.5rem;
+    }
+    .play, #playagain, #go-back, #how{
+        font-size: 1.5rem;
+    }/*
     #description {
         font-size:1.5rem;
     }
@@ -456,15 +465,16 @@ h2 {
     }
     .quiz-heading {
         font-size: 3rem;
-    }
+    }*/
     
     #username {
-        width: 13rem;
+        width: 11rem;
         height: 2.5rem;
     }
     .username-div label {
-        font-size: 1.5rem;
+        font-size: 1.25rem;
     }
+    /*
     #how-to-play h2{
         font-size: 3rem;
     }
@@ -493,10 +503,11 @@ h2 {
     .gameover{
         font-size: 1.75rem;
         padding:1rem;
-    }
+    }*/
     
 
-}*/
+}
+/*
 /*Breakpoint for xxx large screens or tv*/
 @media screen and (min-width: 1200px){
     /*.play, #playagain, #go-back, #how{
