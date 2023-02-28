@@ -127,9 +127,10 @@ h2 {
     text-shadow: none;
 }
 #how:hover {
-    background-color:  rgba(250,249,246, 0.8);
-    box-shadow:0 4px 8px 0 #FF9F00, 0 6px 20px 0 #FF9F00 ;
+    
+    box-shadow:0 4px 8px 0 #faf9f6, 0 6px 20px 0 #faf9f6 ;
     cursor: pointer;
+    
 
 }
 
