@@ -489,15 +489,14 @@ h2 {
     }
     */
     .score-container p {
-        font-size: 1.5rem;
+        font-size: 1.75rem;
     }
-    /*
+    
     .answer-btn button { 
-        font-size: 1.5rem;
-        padding:1rem;
-        width: 45%;
+        font-size: 2rem;
+        
 
-    }*/
+    }
     #questions {
         font-size: 2rem;
     }
