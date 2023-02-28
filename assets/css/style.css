@@ -475,6 +475,11 @@ h2 {
         font-size: 1.25rem;
     }
     
+    .username-div {
+        width:60%;
+        margin:1rem auto;
+        padding:2rem;
+    }
     #how-to-play h2{
         font-size: 2.5rem;
     }/*
@@ -497,12 +502,12 @@ h2 {
     }
     #no-time-left {
         bottom:1rem;
-    }/*
-    #home-page, #gameover-area, #game-page, #how-to-play {
-        width: 55rem;
-        margin: 1rem auto;
-        
     }
+    #home-page, #gameover-area, #game-page, #how-to-play {
+        max-width: 50rem;
+        
+        
+    }/*
     .gameover{
         font-size: 1.75rem;
         padding:1rem;
