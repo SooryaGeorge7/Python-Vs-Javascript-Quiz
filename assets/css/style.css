@@ -13,10 +13,10 @@
 
 /*Set a background image to body incase video doesnt load, also add font family for body" */
 body {
-    background-image: url("../images/backgroundpic-quiz.webp");
+    /*background-image: url("../images/backgroundpic-quiz.webp");
     background-repeat: no-repeat;
     background-position: center;
-    object-fit: cover;
+    object-fit: cover;*/
     font-family: "Open Sans", sans-serif;
     color: #2B2B2B;
 }
