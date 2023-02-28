@@ -283,8 +283,9 @@ h2 {
 
 #no-time-left {
     font-weight: bold;
-    color: #FF9F00
+    color: #FF9F00;
     padding:1rem;
+    margin:2rem;
     position:relative;
     text-align: center;
     text-shadow: 0 0 3px #2B2B2B, 0 0 5px #2B2B2B;
@@ -520,7 +521,7 @@ h2 {
     }
     */
     .score-container p {
-        font-size: 1.75rem;
+        font-size: 1.5rem;
     }
     
     .answer-btn button { 
