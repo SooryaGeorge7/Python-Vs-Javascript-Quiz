@@ -104,7 +104,7 @@ h2 {
     text-shadow: 0 0 3px #faf9f6, 0 0 5px #faf9f6;
 }
 #how-to-play-info{
-    background:  radial-gradient(  rgba(250,249,246,5),rgba(250,249,246,0.1));
+    /*background:  radial-gradient(  rgba(250,249,246,5),rgba(250,249,246,0.1));*/
     border-radius: 1rem;
     display: flex;
     flex-direction: column;
@@ -152,10 +152,13 @@ h2 {
 .username-div {
     font-size: 1rem; 
     font-weight: bold;
-    background:  radial-gradient(  rgba(193,193,193,5),rgba(193,193,193,0.1));  
+    background-color: rgba(43, 43, 43, 0.2);
     padding: 1rem;
     margin: 1rem;
     border-radius: 2rem;
+}
+.username-div label {
+    color: #2B2B2B;
 }
 #username {
     width: 9rem;
@@ -292,7 +295,7 @@ h2 {
 }
 
 #results {
-    background: radial-gradient(  rgba(193,193,193,5),rgba(193,193,193,0.1));
+    /*background: radial-gradient(  rgba(193,193,193,5),rgba(193,193,193,0.1));*/
     border-radius: 1rem;
     margin:0.5rem;
 }
@@ -524,6 +527,7 @@ h2 {
     }
     #no-time-left {
         bottom:1rem;
+        color: #FF9F00;
     }
     #home-page, #gameover-area, #game-page, #how-to-play {
         max-width: 50rem;
