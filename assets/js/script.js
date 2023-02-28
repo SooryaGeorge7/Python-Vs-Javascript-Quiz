@@ -186,7 +186,7 @@ function gameOver() {
 }
 
 //Define variables for countdown function
-let secsLeft = 40;
+let secsLeft = 60;
 let noTimeleft = "Sorry, You've run out of time!";
 
 // This function decreases secsLeft value as countdown timer starts. When value decreases to 0 or less, It calls out gameOver() and noTime div displays message.
