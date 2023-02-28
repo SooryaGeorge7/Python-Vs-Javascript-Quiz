@@ -258,6 +258,7 @@ h2 {
 #no-time-left {
     font-weight: bold;
     color: #faf9f6;
+    padding:1rem;
     position:relative;
     text-align: center;
     text-shadow: 0 0 3px #2B2B2B, 0 0 5px #2B2B2B;
