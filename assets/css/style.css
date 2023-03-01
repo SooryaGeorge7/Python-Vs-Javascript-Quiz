@@ -346,7 +346,7 @@ h2 {
     #how-to-play h2, #error-page h2{
         font-size: 2rem;
     }
-    #how-to-play p, #error-page h2{
+    #how-to-play p, #error-page p{
         font-size: 1.25rem;
     }
     .username-div {
