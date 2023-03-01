@@ -193,6 +193,18 @@ The home page consists of Quiz heading, A container that gives a short descripti
 
    ![Play again Button](documentation/gifs/gameover-page-gifs/play-again-feature.gif)
 
+---
+![How To Play page](documentation/am-i-responsive/am-i-responsive-howtoplay.png)
+ 
+ * The different features of the how to play page:
+   * A **container** That contains a heading and description on how to play the game.
+
+   ![How to play description](documentation/gifs/howtoplay-page-gifs/how-to-play-features.gif)
+
+   * A **Go Back** button where it allows user to go back to home page. 
+
+   ![Go Back Button](documentation/gifs/howtoplay-page-gifs/go-back-feature.gif)
+
 ### Future implimentation
 
 ### Accessibility
