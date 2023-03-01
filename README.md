@@ -72,21 +72,27 @@ The website is especially designed for newbies to coding or the tech world. When
 
 ## Design
 
+I wanted to keep the colour scheme to match with background video, and chose few colours to not overwhelm users when playing the game. The main colour which is a yellow-orange color was selected because it's a colour that  creates a sense of excitement and enthusiasm. The background video contains floating particles of a similar shade and it gived the illusion of diving deep into an alternate universe(usually how it feels when you code for hours!)
+
 ### Colour Scheme
 
 The colours below are used in the following instances:
-* #FF9F00 - Used for button colors and border around game area and heading.
-* #C1C1C1 - Used for background color for game area.
-* #2B2B2B & #FAF9F6 - Used as Primary and secondary text colors.
-* #226F54 - Used to alert user if answer clicked is correct.
-* #E04C4C - Used to alert user if answer clicked is incorrect.
+* #FF9F00 - Used for button colors,background colours, some texts. This is used as the main color..
+* #C1C1C1 - Opted out of not using this in final design because there was no need, and inserting the colour made the area dull.
+* #2B2B2B - Used as Primary and secondary text colors and as background color to contrast against the main color(#FF0F00).
+* #FAF9F6 - Used as background color for answer buttons
+* #226F54 - Used to alert user if answer clicked is correct- turns the button to this color and gives the section border the same shadow.
+* #E04C4C - Used to alert user if answer clicked is incorrect- turns the button to this color and gives the section border the same shadow.
 ![Python Vs Javascript Quiz Color Scheme](documentation/color-palette-quiz.png)
 
 ### Typography
 
-* [Noto Serif](https://fonts.google.com/noto/specimen/Noto+Serif?preview.text=JavaScript%20Vs%20Python&preview.text_type=custom&query=noto+serif&sort=popularity&noto.query=novecento) - Used for Game heading and Questions.
+I used [Google Fonts](https://fonts.google.com/) to import the chosen fonts .
+
+* [Noto Serif](https://fonts.google.com/noto/specimen/Noto+Serif?preview.text=JavaScript%20Vs%20Python&preview.text_type=custom&query=noto+serif&sort=popularity&noto.query=novecento) - Used for All headings and Questions.
 * [Open Sans](https://fonts.google.com/specimen/Open+Sans?preview.text=JavaScript%20Vs%20Python&preview.text_type=custom&query=open+sans&sort=popularity&noto.query=novecento) - Used for all other texts in game.
-Noto Serif is a serifed typeface created by Google specially for users to consume written digital content. So, naturally it is legible on the screen despite its decorate swashes.
+
+Noto Serif is a serif typeface created by Google specially for users to consume written digital content. I thought it would be appropriate for a quiz game which is educational.
 I first got the heading font i wanted from Google fonts and i used [typ.io](https://typ.io/fonts/noto_serif) to get a font that it pairs well with .
 
 ### Imagery
