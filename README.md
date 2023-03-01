@@ -61,12 +61,14 @@ The website is especially designed for newbies to coding or the tech world. When
 * As a user, I want to find out how to play game so that i can play the game efficiently.
 * As a user, I want see if my answer is correct so that my score increases.
 * As a user, I want to see time limit i have left so that i dont run out of time when playing.
+* As a user, I want to see my score at the end so that i can evaaluate if i'm weel versed with Javascript or Python syntax.
 
 #### Returning Visitor Goals
 
 * As a user,I want different questions every time i play to test my knowledge even further.
-* As a user,I want to be able to play again if i wanted to.
+* As a user,I want to be able to play again if i wanted to so i cant improve my prrevious score.
 
+---
 
 ## Design
 
