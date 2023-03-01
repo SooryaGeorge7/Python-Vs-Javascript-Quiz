@@ -144,7 +144,7 @@ The different sections in index.html
 * Home page 
 
 The home page consists of Quiz heading, A container that gives a short description to user, Buttons that can be clicked on to see how to play the game and to actually play the game . An input area to enter username is also included. 
-![Home page](documentation/gifs/am-responsive-gif.gif)
+![Home page](documentation/am-i-responsive/am-i-responsive-quiz.png)
 
  * The different features of the home page: 
    * A **How to play** Button - Allows user to hover, and click which leads user to How to play page.
@@ -159,7 +159,9 @@ The home page consists of Quiz heading, A container that gives a short descripti
 
    ![NoSpaces Validation](documentation/gifs/home-page-gifs/username-validation-spaces.gif)
 
-![Games page](documentation/am-responsive-gamepage.png)
+---
+
+![Games page](documentation/am-i-responsive/am-responsive-gamepage.png)
  
  * The different features of the game page:
    * A **Score Container** That displays the score, question number, timer and the questions remaining.
@@ -173,6 +175,23 @@ The home page consists of Quiz heading, A container that gives a short descripti
    * **The Answer buttons** which indicates to the user if the answer clicked is actually correct or incorrect by turning a shade pr red or green. 
 
    ![Answer Button](documentation/gifs/game-page-gifs/answer-button-feature.gif)
+
+---
+
+![Gameover page](documentation/am-i-responsive/am-i-responsive-gameover.png)
+ 
+ * The different features of the gameover page:
+   * A **No time left** message if you havnt completed all 10 questions within the given time.
+
+   ![No time left](documentation/gifs/gameover-page-gifs/no-time-left-feature.gif)
+
+   * A **performance** section where it shows your score and a display message according to your score. 
+
+   ![Performance](documentation/gifs/gameover-page-gifs/performance-feature.gif)
+
+   * A **Play Again** button where it allows you to play again
+
+   ![Play again Button](documentation/gifs/gameover-page-gifs/play-again-feature.gif)
 
 ### Future implimentation
 
