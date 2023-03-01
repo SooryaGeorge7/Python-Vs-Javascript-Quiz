@@ -13,10 +13,6 @@
 
 /*Set a background image to body incase video doesnt load, also add font family for body" */
 body {
-    /*background-image: url("../images/backgroundpic-quiz.webp");
-    background-repeat: no-repeat;
-    background-position: center;
-    object-fit: cover;*/
     font-family: "Open Sans", sans-serif;
     color: #2B2B2B;
 }
@@ -25,11 +21,9 @@ body {
 /*Heading for throughout game*/
 .quiz-heading {
     text-align: center;
-    top: 1.5rem; 
-    /*margin-top: 1rem;*/
+    top: 1.5rem;
     font-family: "noto serif",sans-serif;
     /*Learnt to style heading here: https://blog.logrocket.com/five-cool-css-header-styles-with-cross-browser-compatibility/*/
-    
     -webkit-background-clip: text;
     background-image: linear-gradient(45deg, #faf9f6, #ff9f00 50%);
     color: transparent;
@@ -54,16 +48,12 @@ h2 {
     top: 50%;
     width:80%;
     left:50%;
-   transform: translate(-50%, -50%);
-   display:flex;
-   flex-direction: column;
-   justify-content: space-evenly;
-
-   
-   
+    transform: translate(-50%, -50%);
+    display:flex;
+    flex-direction: column;
+    justify-content: space-evenly;
 }
 #home-page {
-    
     background-image: linear-gradient(45deg, #faf9f6, #ff9f00 60%);
     color: transparent;
     margin: 1rem auto;
@@ -74,13 +64,11 @@ h2 {
     top: 50%;
     width:80%;
     left:50%;
-   transform: translate(-50%, -50%);
-   display:flex;
-   flex-direction: column;
-   justify-content: space-evenly;
-   z-index: 2;
-   
-
+    transform: translate(-50%, -50%);
+    display:flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    z-index: 2;
 }
 
 /*Home page description for user*/
@@ -88,8 +76,8 @@ h2 {
     font-weight: bold;
     color: #2B2B2B;
     padding-top: 0.5rem;
-    /*text-shadow: 0 0 3px #2B2B2B, 0 0 5px #2B2B2B;*/
 }
+
 #home-question {
     font-size: 1rem;
 }
@@ -103,8 +91,8 @@ h2 {
     color: #2B2B2B;
     text-shadow: 0 0 3px #faf9f6, 0 0 5px #faf9f6;
 }
+
 #how-to-play-info, #error-page div{
-    /*background:  radial-gradient(  rgba(250,249,246,5),rgba(250,249,246,0.1));*/
     border-radius: 1rem;
     display: flex;
     flex-direction: column;
@@ -121,33 +109,15 @@ h2 {
     padding:0.5rem;
     background-color: rgba(43, 43, 43, 0.8);
     border-radius: 2rem;
-    /*border: 0.125rem solid #faf9f6;*/
     margin-top: 1rem;
     border-style: outset;
     text-shadow: none;
 }
 #how:hover {
-    
     box-shadow:0 4px 8px 0 #faf9f6, 0 6px 20px 0 #faf9f6 ;
     cursor: pointer;
-    
-
 }
 
-/*#go-back {
-    font-size: 1rem;
-    color: #faf9f6;
-    padding:0.5rem;
-    background-color: #FF9F00;
-    border-radius: 0.5rem;
-    border: 0.125rem solid #faf9f6;
-    margin-top: 1rem;
-    border-style: outset;
-}
-#go-back:hover{
-    background-color:  rgba(255,159,0, 0.7);
-    cursor: pointer;
-}*/
 
 /* input element to enter username and div that shows validation messages when needed*/
 .username-div {
@@ -207,31 +177,18 @@ h2 {
     flex-wrap: wrap;
     justify-content: space-between;
     margin-bottom: 1rem;
-    /*background-color: rgba(193,193,193,0.9);*/
-    /*border: 0.125rem solid #faf9f6;*/
-    /*background-color: #FF9F00;*/
-    
-    /*padding:0.25rem;*/
-   /* background:  radial-gradient(  rgba(193,193,193,5),rgba(193,193,193,0.1));*/
     border-radius: 0.5rem;
 }
+
 .score-container p {
-    /*color: #faf9f6;*/
     padding:0.25rem;
-    
-    /*padding:0.25rem;*/
-    /*border-bottom: 0.125rem solid #faf9f6;/
-    /*border-radius: 0.5rem;*/
     margin: 0.5rem;
-   /* background:  radial-gradient(  rgba(193,193,193,5),rgba(193,193,193,0.1));*/
     width:42%;
     color: #FF9F00;
     background-color: rgba(43, 43, 43, 0.8);
     font-size: 0.8rem;
     border-radius: 0.5rem;
     border: 0.125rem solid #faf9f6;
-    
-    
 }
 .score-container span {
     color: #faf9f6;
@@ -241,7 +198,6 @@ h2 {
 #questions {
     font-family: "noto serif",sans-serif;
     color: #2B2B2B;
-    /*text-shadow: 0 0 3px #2B2B2B, 0 0 5px #2B2B2B;*/
     font-size: 1rem;
     font-weight: bold;
     text-shadow: 0 0 3px #faf9f6, 0 0 5px #faf9f6;
@@ -264,6 +220,7 @@ h2 {
     background:  radial-gradient(  rgba(250,249,246,1),rgba(250,249,246,0.4));
     border-style: outset;
 }
+/* Hover effect set to !important because of javascript changes*/
 .answer-btn button:hover {
     color:rgba(43, 43, 43, 0.7) !important;
     box-shadow:0 4px 8px 0 #FF9F00, 0 6px 20px 0 #FF9F00 !important;
@@ -277,8 +234,6 @@ h2 {
 #gameover-area {
     text-align: center;
     font-size: 1rem;
-    /* color: #faf9f6; */
-    /*margin: 5rem 4rem;*/
     
 }
 
@@ -298,7 +253,6 @@ h2 {
 }
 
 #results {
-    /*background: radial-gradient(  rgba(193,193,193,5),rgba(193,193,193,0.1));*/
     border-radius: 1rem;
     margin:0.5rem;
 }
@@ -309,35 +263,18 @@ h2 {
 
 /*Background video for the whole page*/
 #video {
-    /*min-width: 100%;
-    height: 50rem;
-    object-fit: cover;
-    position: fixed;
-    top: 0;
-    bottom: 0;*/
     width: 100%;
     height: 100%;
     object-fit: cover;
     position: fixed;
-    /* top: 0; */
     bottom: 0;
 }
 #copyright {
-    /*position:relative;
-    text-align: center;
-    background-clip: text;
-    -webkit-background-clip: text;
-    background-image: linear-gradient(45deg, #faf9f6, #ff9f00);
-    color: transparent;
-    font-size: 0.75rem;
-    padding-bottom: 0.5rem;*/
     position: fixed;
     text-align: center;
-    /* margin: 2rem; */
     bottom: 0;
     left: 50%;
     transform: translate(-50%, -50%);
-    
     -webkit-background-clip: text;
     background-image: linear-gradient(45deg, #faf9f6, #ff9f00 60%);
     color: transparent;
@@ -351,25 +288,13 @@ h2 {
     
     .quiz-heading {
         font-size: 2.5rem;
-    }/*
-    #home-question {
-        font-size: 1.25rem;
     }
-    #description {
-        font-size: 1.25rem;
-    }*/
     .play, #playagain, #go-back, #how{
         margin:0.5rem;
-    }/*
-    .score-container p{
-        font-size: 1rem;
-    }*/
+    }
     #questions {
         padding-bottom: 0.5rem;
-    }/*
-    .answer-btn button{
-        font-size: 1.25rem;
-    }*/
+    }
     .gameover{
         font-size: 1.5rem;
         
@@ -423,23 +348,12 @@ h2 {
     }
     #how-to-play p, #error-page h2{
         font-size: 1.25rem;
-    }/*
-    .username-div{
-        padding: 2rem;
-    }*/
+    }
     .username-div {
         width:60%;
         margin:1rem auto;
         padding:2rem;
-    }/*
-    #username {
-        width: 11rem;
-        border: 0.125rem solid #2B2B2B;
-        font-size: 1.5rem;
     }
-    .username-div label {
-        font-size: 1.25rem;
-    }*/
     .score-container {
         flex-wrap: nowrap;
         padding:0.5rem;
@@ -463,11 +377,7 @@ h2 {
     .score-container p {
         font-size: 1.125rem;
         margin:0.25rem;
-    }/*
-    #home-page, #gameover-area, #game-page, #how-to-play {
-        width: 45rem;
-        margin: 1rem auto;   
-    }*/
+    }
     .gameover{
         font-size: 1.75rem;
         
@@ -490,17 +400,7 @@ h2 {
     }
     .play, #playagain, .go-back, #how{
         font-size: 1.5rem;
-    }/*
-    #description {
-        font-size:1.5rem;
     }
-    #home-question {
-        font-size:1.5rem;
-    }
-    .quiz-heading {
-        font-size: 3rem;
-    }*/
-    
     #username {
         width: 11rem;
         height: 2.5rem;
@@ -516,11 +416,7 @@ h2 {
     }
     #how-to-play h2, #error-page h2{
         font-size: 2.5rem;
-    }/*
-    #how-to-play p{
-        font-size: 1.5rem;
     }
-    */
     .score-container p {
         font-size: 1.5rem;
     }
@@ -541,11 +437,7 @@ h2 {
         max-width: 50rem;
         
         
-    }/*
-    .gameover{
-        font-size: 1.75rem;
-        padding:1rem;
-    }*/
+    }
     #gameover-heading {
         font-size:2.5rem;
         
