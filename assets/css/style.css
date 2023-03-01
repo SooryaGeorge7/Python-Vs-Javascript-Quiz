@@ -99,18 +99,18 @@ h2 {
     display:none
 }
 
-#how-to-play h2{
+#how-to-play h2, #error-page h2{
     color: #2B2B2B;
     text-shadow: 0 0 3px #faf9f6, 0 0 5px #faf9f6;
 }
-#how-to-play-info{
+#how-to-play-info, #error-page div{
     /*background:  radial-gradient(  rgba(250,249,246,5),rgba(250,249,246,0.1));*/
     border-radius: 1rem;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
 }
-#how-to-play p{
+#how-to-play p, #error-page p{
     padding:0.5rem;
     font-weight: bold;
     font-size: 0.75rem;
