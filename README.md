@@ -111,7 +111,33 @@ I created wireframes using [Balsamiq](https://balsamiq.com/) for mobile, tablet 
 
 ![Game page](documentation/wireframes/wireframe-game-page.png)
 
+### Score Page 
+
+![Score page](documentation/wireframes/wireframe-scoreboard-page.png)
+
+As i developed my game, My design for the game changed because of time constraints and implementations that would be beyond the project 2 scope at this point. 
+
 ### Features
+
+The website is comprimised of a home page, game page, score page, how to play page and a 404 error page.
+
+The Home page, Game page, Score page and How to play page are implemented in index.html. Css style display was used to hide and display the certain sections at certain points in the game. 
+
+The 404 error page  is in a seperate html file called 404.html.
+
+All sections in the game have the following in common: 
+
+* The Quiz Heading(Located at top of every section of game.)
+
+![Quiz Heading](documentation/quiz-heading.png)
+
+* A Copyright statement(Located at the bottom of the page.)
+
+![Copyright Statement](documentation/copyright-statement.png)
+
+* The favicon (Located on browser tab.)
+
+![Favicon](documentation/favicon-feature.png)
 ### Future implimentation
 
 ### Accessibility
