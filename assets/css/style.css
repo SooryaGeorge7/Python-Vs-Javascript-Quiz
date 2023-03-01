@@ -232,9 +232,7 @@ h2 {
     display: none;
 }
 #gameover-area {
-    text-align: center;
     font-size: 1rem;
-    
 }
 
 #no-time-left {
@@ -289,9 +287,6 @@ h2 {
     .quiz-heading {
         font-size: 2.5rem;
     }
-    .play, #playagain, #go-back, #how{
-        margin:0.5rem;
-    }
     #questions {
         padding-bottom: 0.5rem;
     }
@@ -320,10 +315,7 @@ h2 {
         
     }
     #copyright {
-        
         font-size: 1.125rem;
-        
-        
     }
 
 }
@@ -409,11 +401,6 @@ h2 {
         font-size: 1.25rem;
     }
     
-    .username-div {
-        width:60%;
-        margin:1rem auto;
-        padding:2rem;
-    }
     #how-to-play h2, #error-page h2{
         font-size: 2.5rem;
     }
@@ -423,15 +410,12 @@ h2 {
     
     .answer-btn button { 
         font-size: 2rem;
-        
-
     }
     #questions {
         font-size: 2rem;
     }
     #no-time-left {
         bottom:1rem;
-        color: #FF9F00;
     }
     #home-page, #gameover-area, #game-page, #how-to-play, #error-page {
         max-width: 50rem;
