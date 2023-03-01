@@ -147,17 +147,32 @@ The home page consists of Quiz heading, A container that gives a short descripti
 ![Home page](documentation/gifs/am-responsive-gif.gif)
 
  * The different features of the home page: 
-   * A **How to play** Button 
+   * A **How to play** Button - Allows user to hover, and click which leads user to How to play page.
 
    ![How to play button](documentation/gifs/home-page-gifs/how-to-play-button.gif)
 
-   * A **Play Button** with username validation:
+   * A **Play Button** with username validation -  Allows user to hover and click, but it only starts the game after youve entered a valid username.
 
    ![Charector validation](documentation/gifs/home-page-gifs/username-validation-charectors.gif)
 
-   * **Username Validation** for charectors(as seen above) and no spaces in between:
+   * **Username Validation** for charectors(as seen above) and no spaces in between-- Username is validated when the charectors are more than 2 , and there are no blank spaces.
 
    ![NoSpaces Validation](documentation/gifs/home-page-gifs/username-validation-spaces.gif)
+
+![Games page](documentation/am-responsive-gamepage.png)
+ 
+ * The different features of the game page:
+   * A **Score Container** That displays the score, question number, timer and the questions remaining.
+
+   ![Score container](documentation/gifs/game-page-gifs/score-container-feature.gif)
+
+   * **The questions section** that displays another question every time user answers a question.
+
+   ![Questions](documentation/gifs/game-page-gifs/questions-feature.gif)
+
+   * **The Answer buttons** which indicates to the user if the answer clicked is actually correct or incorrect by turning a shade pr red or green. 
+
+   ![Answer Button](documentation/gifs/game-page-gifs/answer-button-feature.gif)
 
 ### Future implimentation
 
