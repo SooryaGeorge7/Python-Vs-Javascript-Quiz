@@ -378,10 +378,10 @@ h2 {
         font-size:1.75rem;
         
     }
-    #how-to-play-info{
+    #how-to-play-info, #error-page div{
         margin:1rem;
     }
-    #how-to-play-info p{
+    #how-to-play-info p #error-page p{
         font-size: 1rem;
     }
     #how-to-play>div{
@@ -390,7 +390,7 @@ h2 {
     #results {
         padding: 1rem;
     }
-    #home-page, #gameover-area, #game-page, #how-to-play{   
+    #home-page, #gameover-area, #game-page, #how-to-play, #error-page{   
         padding: 1rem;
         
     }
@@ -418,10 +418,10 @@ h2 {
     .play, #playagain, .go-back, #how{
         font-size: 1.25rem;
     }
-    #how-to-play h2{
+    #how-to-play h2, #error-page h2{
         font-size: 2rem;
     }
-    #how-to-play p{
+    #how-to-play p, #error-page h2{
         font-size: 1.25rem;
     }/*
     .username-div{
@@ -514,7 +514,7 @@ h2 {
         margin:1rem auto;
         padding:2rem;
     }
-    #how-to-play h2{
+    #how-to-play h2, #error-page h2{
         font-size: 2.5rem;
     }/*
     #how-to-play p{
@@ -537,7 +537,7 @@ h2 {
         bottom:1rem;
         color: #FF9F00;
     }
-    #home-page, #gameover-area, #game-page, #how-to-play {
+    #home-page, #gameover-area, #game-page, #how-to-play, #error-page {
         max-width: 50rem;
         
         
