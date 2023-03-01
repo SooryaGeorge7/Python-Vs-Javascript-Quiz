@@ -43,7 +43,7 @@ h2 {
 }
 
 /*The sections*/
-#gameover-area, #game-page, #how-to-play { 
+#gameover-area, #game-page, #how-to-play, #error-page { 
     /*Learnt about radial gradients here https://www.w3schools.com/css/css3_gradients_radial.asp*/
     background: radial-gradient(  rgba(255,159,0, 1),rgba(255,159,0,0.3));
     margin: 1rem auto;
