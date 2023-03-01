@@ -1,5 +1,7 @@
 # Python Vs Javascript Quiz
 
+
+
 How confident are you in knowing the difference between Python and Javascript ? 
 Test your knowledge with this quiz in order to validate your knowledge(Yes, i used the term validate because testing just your website may not be enough!)
 
