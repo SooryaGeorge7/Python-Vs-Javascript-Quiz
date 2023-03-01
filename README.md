@@ -97,6 +97,8 @@ I first got the heading font i wanted from Google fonts and i used [typ.io](http
 
 ### Imagery
 
+I did not use any images , but my background video was chosen it gives the feeling of delving deep into the world of coding and programing languages. The credits for the background video is in [Credits](#credits) section.
+
 ### Wireframes
 
 I created wireframes using [Balsamiq](https://balsamiq.com/) for mobile, tablet and desktops screens.
