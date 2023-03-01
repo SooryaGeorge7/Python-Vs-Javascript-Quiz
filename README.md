@@ -138,6 +138,27 @@ All sections in the game have the following in common:
 * The favicon (Located on browser tab.)
 
 ![Favicon](documentation/favicon-feature.png)
+
+The different sections in index.html
+
+* Home page 
+
+The home page consists of Quiz heading, A container that gives a short description to user, Buttons that can be clicked on to see how to play the game and to actually play the game . An input area to enter username is also included. 
+![Home page](documentation/gifs/am-responsive-gif.gif)
+
+ * The different features of the home page: 
+   * A **How to play** Button 
+
+   ![How to play button](documentation/gifs/home-page-gifs/how-to-play-button.gif)
+
+   * A **Play Button** with username validation:
+
+   ![Charector validation](documentation/gifs/home-page-gifs/username-validation-charectors.gif)
+
+   * **Username Validation** for charectors(as seen above) and no spaces in between:
+
+   ![NoSpaces Validation](documentation/gifs/home-page-gifs/username-validation-spaces.gif)
+
 ### Future implimentation
 
 ### Accessibility
