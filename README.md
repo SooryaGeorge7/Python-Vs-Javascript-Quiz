@@ -235,14 +235,16 @@ The home page consists of Quiz heading, A container that gives a short descripti
 
 ### Accessibility
 
-I ensured to provide sufficient accessibility throughout the making of this game site by the following ways:
+These are the ways i have ensured to provide accessibility to users:
 
-* I used semantic HTML.
-* Ensures that there is sufficient colour contrast throughout the game site.
+* Used HTML semantics.
 * Ensured that user knows when their answer is correct or wrong by using red and green shade to highlight answer.
 * Ensure that the user can see the score while playing (this would also help users that maybe color blind).
-* Allowed users to see their score in scoreboard to compare.
-
+* Used rem and % for font sizes  throughout website because it can scale up or down according to user's device.
+* Ensured Colour Contrast so that the websites are easily readable in light and dark mode.
+* Provided alt for video incase images do not load.
+* Aria labels were implemented for links and videos.[Learnt you can use aria-labels for videos here](https://www.w3.org/WAI/PF/HTML/wiki/Media_Alt_Technologies)
+* Google font "noto serif" was chosen carefully and i chose the pairing to this font "Open Sans" here [Noto serif pairing](https://typ.io/fonts/noto_serif).
 
 ## Technologies Used
 ### Languages Used 
