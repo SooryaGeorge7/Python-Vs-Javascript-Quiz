@@ -143,7 +143,10 @@ The different sections in index.html
 
 * Home page 
 
-The home page consists of Quiz heading, A container that gives a short description to user, Buttons that can be clicked on to see how to play the game and to actually play the game . An input area to enter username is also included. 
+The home page consists of Quiz heading, A container that gives a short description to user, Buttons that can be clicked on to see how to play the game and to actually play the game . An input area to enter username is also included.
+
+### HOME page
+
 ![Home page](documentation/am-i-responsive/am-i-responsive-quiz.png)
 
  * The different features of the home page: 
@@ -160,6 +163,7 @@ The home page consists of Quiz heading, A container that gives a short descripti
    ![NoSpaces Validation](documentation/gifs/home-page-gifs/username-validation-spaces.gif)
 
 ---
+### GAMES page
 
 ![Games page](documentation/am-i-responsive/am-responsive-gamepage.png)
  
@@ -177,6 +181,7 @@ The home page consists of Quiz heading, A container that gives a short descripti
    ![Answer Button](documentation/gifs/game-page-gifs/answer-button-feature.gif)
 
 ---
+### GAMEOVER page
 
 ![Gameover page](documentation/am-i-responsive/am-i-responsive-gameover.png)
  
@@ -194,6 +199,8 @@ The home page consists of Quiz heading, A container that gives a short descripti
    ![Play again Button](documentation/gifs/gameover-page-gifs/play-again-feature.gif)
 
 ---
+### HOW TO PLAY page
+
 ![How To Play page](documentation/am-i-responsive/am-i-responsive-howtoplay.png)
  
  * The different features of the how to play page:
@@ -204,6 +211,21 @@ The home page consists of Quiz heading, A container that gives a short descripti
    * A **Go Back** button where it allows user to go back to home page. 
 
    ![Go Back Button](documentation/gifs/howtoplay-page-gifs/go-back-feature.gif)
+
+---
+
+### 404 page
+
+![404 page](documentation/am-i-responsive/am-i-responsive-404.png)
+ 
+ * The different features of the 404 page:
+   * A **container** That contains a heading and description of this page.
+
+   ![404 description](documentation/gifs/404-page-gifs/404-description-gif.gif)
+
+   * A **Go Back** button where it allows user to go back to home page. 
+
+   ![Go Back Button](documentation/gifs/404-page-gifs/404-button-gif.gif)
 
 ### Future implimentation
 
