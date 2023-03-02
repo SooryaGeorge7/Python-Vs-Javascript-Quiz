@@ -233,6 +233,7 @@ The home page consists of Quiz heading, A container that gives a short descripti
 * I would implement a pause button, to allow users to stop the game in case of emergencies without having to restart the game again.
 * I would want to be able to implement a share button that allows you to share this game to socials or peers. 
 
+
 ### Accessibility
 
 These are the ways i have ensured to provide accessibility to users:
@@ -298,13 +299,27 @@ To clone the Python-Vs-Javascript-Quiz Repository:
 7. Cloning is now completed.
 
 ## Testing
+
+All testing was carried out in [Testing.md](TESTING.md).
+
 ### Solved Bugs
 ### Known Bugs
 
 ## Credits
 
 ### Code used 
+
+1. I learnt how to shuffle and randomize objects in an array here.
+2. I learnt how to set a count down for game here. 
+3. Learnt how to display a colour for a few seconds here. 
+4. Learnt to validate username to check for blank spaces here. 
+5. Learnt about radial and linear gradients which is used in css here.
+
+
 ### Content 
+
+All descriptions in home page, gameover page and how to play page was written by me.
+Most questions or statements were written were taken from study material in Code institute's LMS and few from a game i found online https://www.sporcle.com/games/VengerKing/python-or-javascript
 ### Media 
-* [Background game image- from pexels website](https://www.pexels.com/photo/close-up-photo-of-matrix-background-1089438/)
+* [Background game video](https://pixabay.com/videos/particles-plexus-network-glowing-27669/)
 ### Acknowledgements
