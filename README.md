@@ -229,6 +229,10 @@ The home page consists of Quiz heading, A container that gives a short descripti
 
 ### Future implimentation
 
+* I would implement a database that would allow all users scores and usernames to be stored so that new users would be able to compare their score to previous players. 
+* I would implement a pause button, to allow users to stop the game in case of emergencies without having to restart the game again.
+* I would want to be able to implement a share button that allows you to share this game to socials or peers. 
+
 ### Accessibility
 
 I ensured to provide sufficient accessibility throughout the making of this game site by the following ways:
