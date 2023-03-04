@@ -42,3 +42,43 @@ I also used the console section in chrome dev tools to test javascript code and 
   * Unused variable shown in validator called "questions" is from the questions array in questions.js. I checked with ci tutor support if this was okay, and they assured that i wouldnt lose points for that.
 2.  [Js Hint validation for questions.js](documentation/tests/questions-js-validation.png)
   * The unused variable "questions" is used in script.js 
+
+### Lighthouse 
+
+**index.html** 
+  * Desktop 
+    * Lightmode
+
+    ![index.html lighthouse desktop(light)](documentation/lighthouse-scores/lighthouse-score-desktop.png)
+
+    * Darkmode
+
+    ![index.html lighthouse desktop(dark)](documentation/lighthouse-scores/lighthouse-score-desktop(dark).png)
+
+  * Mobile
+    * Lightmode
+
+    ![index.html lighthouse mobile(light)](documentation/lighthouse-scores/lighthouse-score-mobile.png)
+
+    * Darkmode
+
+    ![index.html lighthouse mobile(dark)](documentation/lighthouse-scores/lighthouse-score-mobile(dark).png)
+
+**404.html**
+  * Desktop
+    * Lightmode
+
+    ![404.html lighthouse desktop(light)](documentation/lighthouse-scores/lighthouse-score-desktop-404.png)
+
+    * Darkmode
+
+    ![404.html lighthouse desktop(dark)](documentation/lighthouse-scores/lighthouse-score-desktop(dark)-404.png)
+
+  * Mobile
+    * Lightmode 
+
+    ![404.html lighthouse mobile(light)](documentation/lighthouse-scores/lighthouse-score-mobile-404.png)
+
+    * Darkmode
+
+    ![404.html lighthouse mobile(dark)](documentation/lighthouse-scores/lighthouse-score-mobile(dark)-404.png)
