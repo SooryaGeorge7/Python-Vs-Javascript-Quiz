@@ -82,3 +82,11 @@ I also used the console section in chrome dev tools to test javascript code and 
     * Darkmode
 
     ![404.html lighthouse mobile(dark)](documentation/lighthouse-scores/lighthouse-score-mobile(dark)-404.png)
+
+### Wave
+
+[Wave test for quiz game](documentation/tests/wavetest-index.html.png)
+
+The wave test alerts were for 8 possible headings and 1 X html5 video. 
+* The possible headings was not valid in this case as its not a website but a game. 
+* The video alert wasnt warrented in this case because its a background video that automatically plays itself, doesnt have audio or subtitles.I have added alt and aria-labels to video in index.html incase video doesnt load or for people with vision impairments.
