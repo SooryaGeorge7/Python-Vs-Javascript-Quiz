@@ -232,6 +232,7 @@ The home page consists of Quiz heading, A container that gives a short descripti
 * I would implement a database that would allow all users scores and usernames to be stored so that new users would be able to compare their score to previous players. 
 * I would implement a pause button, to allow users to stop the game in case of emergencies without having to restart the game again.
 * I would want to be able to implement a share button that allows you to share this game to socials or peers. 
+* I would add a function to create a tick or a cross for everytime an answer is selected depending on if its correct or wrong. (In case for users with vision imparement such as color blindness.)
 
 
 ### Accessibility
@@ -303,6 +304,7 @@ To clone the Python-Vs-Javascript-Quiz Repository:
 All testing was carried out in [Testing.md](TESTING.md).
 
 ### Solved Bugs
+
 1. I wanted the answer that the user clicked on to turn green or red depending on if the selected answer was correct or wrong and then the color to return back to the original color after "click" event. - I first tried implementing this using event listner "click" without using any setTimeout(function()), but it did not allow the color to return back to original color. It just remained the red or green color after clicking.[View bug](documentation/gifs/bugs-gif/answer-button-bug.gif) I first tried to solve this using mouse down, mouse up events and using that to change colours only when mouse is down, and then return to original colour when mouse is up again. Although this method worked fine on desktops, it did not work on mobiles as there is essentially no mouse being click on. This method would not work on touchscreen devices. I tried implementing touchstart and touch end but that triggered really fast response when touching the screen [View bug](documentation/gifs/bugs-gif/touch-start-bug.gif). I then found a function that would allow something to change color for a few seconds here.https://stackoverflow.com/questions/5600351/javascript-change-css-color-for-5-seconds. This method allowed me to use click event and then use if else statement to changed color when clicking to either(red or green) and then i used setTimeout(function()) to change to color back to original color after 1 second. This function allowed the user to click on an answer(which triggered the answer to change color for the 1 second when user clicks )and then to return back to orginal color when the 1 second was up.
 2. I wanted to position of the all sections(except header and footer) in the game to be centered on the screen- When using position: relative for this the sections are never at the center of the screen.[View bug](documentation/gifs/bugs-gif/not-centered-bug.gif) I solved this by changing position to absolute, and adding left:50%;transform: translate(-50%, -50%); top:50%; in css stylesheet to the sections which allowed the main sections of the game to always be centered on any screen.[View final](documentation/gifs/bugs-gif/not-centered-bug-solved.gif)
 3. My copyright statement was intially moving with the game section of the game. Have a look here to understand what i mean.[View bug](documentation/gifs/bugs-gif/copyright-bug.gif) I wanted the copy right statement to always remain at the bottom of the screen so changed position to fixed, and added left: 50%;
@@ -311,6 +313,7 @@ transform: translate(-50%, -50%); to achieve the effect of the statement always 
 
 ### Known Bugs
 1. It seems that my background video only works sometimes on iOS devices. After researching, i've found that iphone disables autoplay of videos when on low power mode. In this case, the video just becomes an image instead. 
+
 ## Credits
 
 ### Code used 
