@@ -12,6 +12,26 @@
   * [W3C Validator](#W3C-Validator)
   * [JavaScript Validator](#JavaScript-Validator)
   * [Lighthouse](#Lighthouse)
+  * [Wave Accessibility Test](#Wave)
 * [Manual Testing](#Manual-Testing)
   * [Testing User Stories](#Testing-User-Stories)
   * [Full Testing](#Full-Testing)
+
+  ---
+
+I used google developer tools throughout development of game to test different aspects and stages of the game.
+I also used the console section in chrome dev tools to test javascript code and also to check and troubleshoot any issues that arise in the code too. 
+
+---
+
+## Automated Testing 
+
+### W3C Validator 
+
+1. [W3C validation for index.html](documentation/tests/final-index.html-validation.png) - Passed
+2. [W3C validation for 404.html](documentation/tests/404-html-validation.png) - Passed
+3. [Jigsaw W3C Validation for style.css](documentation/tests/final-css-validation.png) 
+  * - No errors, 2 warnings are : -webkit-background-clip is a vendor extension - Ive checked with CI tutor support if this would be a problem and they assured me that it wouldnt be since its a warning. I used that code to have a certain effect on my quiz heading. 
+
+
+
