@@ -309,11 +309,12 @@ All testing was carried out in [Testing.md](TESTING.md).
 
 ### Code used 
 
-1. I learnt how to shuffle and randomize objects in an array here.
-2. I learnt how to set a count down for game here. 
-3. Learnt how to display a colour for a few seconds here. 
-4. Learnt to validate username to check for blank spaces here. 
-5. Learnt about radial and linear gradients which is used in css here.
+1. I learnt how to shuffle and randomize objects in an array here.- https://sebhastian.com/fisher-yates-shuffle-javascript/ 
+2. I learnt how to set a count down for game here. -  https://www.educative.io/answers/how-to-create-a-countdown-timer-using-javascript
+3. Learnt how to display a colour for a few seconds here. -https://stackoverflow.com/questions/5600351/javascript-change-css-color-for-5-seconds
+4. Learnt to validate username to check for blank spaces here. - https://stackoverflow.com/questions/1133770/how-to-convert-a-string-to-an-integer-in-javascript  https://www.w3schools.com/jsref/jsref_indexof.asp
+5. Learnt about radial and linear gradients which is used in css here. https://www.w3schools.com/css/css3_gradients_radial.asp 
+6. Learn to do the main quiz heading styling here. https://blog.logrocket.com/five-cool-css-header-styles-with-cross-browser-compatibility/
 
 
 ### Content 
