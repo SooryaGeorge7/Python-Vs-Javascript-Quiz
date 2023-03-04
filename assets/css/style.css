@@ -30,7 +30,7 @@ body {
     font-size: 1.75rem;
     position:relative;
     z-index: 1;
-    padding:1rem;
+    padding:0.5rem 1rem;
 }
 h2 {
     font-family: "noto serif",sans-serif;
@@ -382,7 +382,7 @@ h2 {
 /*Breakpoint for desktop and larger screens*/
 @media screen and (min-width: 1024px){
     .quiz-heading {
-        font-size: 4rem;
+        font-size: 4.5rem;
     }
     #description {
         font-size:1.5rem;
