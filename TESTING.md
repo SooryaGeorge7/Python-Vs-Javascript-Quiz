@@ -167,3 +167,11 @@ Full Testing was performed on these devices and browsers for each section of gam
 | Performance statement | According to your score , the performance statement will be different .* If your score is 10/10 - statement should say "Congraturlations! You really know your stuff (value of username)!" <br> If score is >= 7 - statement should say "`Well done (value of username)! This is a good score but there is still room for improvement" <br> If score <7, >5 - statement should say "(value of username), You've just passed but you can definetly do better"<br> if score is < 5 - then statement should say "Oh no, someone needs to revise their notes!Try again (value of username)? | As expected result | Pass |
 | Play Again Button | * When hovered on - should show box shadow effect. <br> * When clicked on - should redirect user back to home page | As expected result | Pass |
 
+`How To Play Section`
+
+|Features|Expected result| Actual result| Pass/Fail | 
+| ------ | ------------- | ------------ | --------- |
+| How to Play Heading | The subheading should be in the yellow container , and should be displayed centered and at the top | As expected result | Pass |
+| Instructions on how to play | The instructions are displayed as one sentence at a time , where there is space between each sentence . | As expected result | Pass | 
+| Go Back Button | * When hovered on - Pointer changes to cursor, shows box shadow style. <br> * when clicked on - Takes user back to Home page | As expected result | Pass |
+
