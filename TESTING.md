@@ -131,6 +131,9 @@ Full Testing was performed on these devices and browsers for each section of gam
 3. Mozilla firefox	
 4. Safari
 
+I did submit my game on peer code review and no issues was brought to me.
+I also asked family and friends to test my game on their devices no issues were reported in game except for background video not always playing in IOS devices(I noted this in Known Bugs) 
+
 `Home Page Section`
 
 |Features|Expected result| Actual result| Pass/Fail | 
