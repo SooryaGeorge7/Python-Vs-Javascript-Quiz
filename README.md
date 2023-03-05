@@ -187,7 +187,7 @@ The games page contains a container of color (shade of #FF9F00).It has a score c
 
 The gameover page contains a "no time left" statement that only appears if user runs out of time before completing all 10 questions, An area that shows your score and a performance message depending on how well you did and a `play again` button that allows user to play again if they wanted to.
 
-![Gameover page](documentation/am-i-responsive/am-i-responsive-gameover.png)
+![Gameover page](documentation/am-i-responsive/am-i-responsive-gameover-final.png)
  
  * The different features of the gameover page:
    * A **No time left** message if you havnt completed all 10 questions within the given time.
