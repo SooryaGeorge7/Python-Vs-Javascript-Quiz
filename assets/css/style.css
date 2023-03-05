@@ -225,6 +225,7 @@ h2 {
     color:rgba(43, 43, 43, 0.7) !important;
     box-shadow:0 4px 8px 0 #FF9F00, 0 6px 20px 0 #FF9F00 !important;
     border-style: inset !important;
+    cursor: pointer !important; 
 }
 
 /*set these pages to none, this will be changed in functions in javascript file*/
