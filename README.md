@@ -1,6 +1,6 @@
 # Python Vs Javascript Quiz
 
-![Python Vs JavaScript Quiz game shown in different device sizes.](documentation/gifs/am-responsive-gif.gif)
+![Python Vs JavaScript Quiz game shown in different device sizes.](documentation/gifs/am-i-responsive-finalgif.gif)
 
 [Link to Live Website](https://sooryageorge7.github.io/Python-Vs-Javascript-Quiz/)
 
@@ -10,7 +10,7 @@ Test your knowledge with this quiz in order to validate your knowledge(Yes, i us
 
 The languages Javascript and Python have a lot in common, but also subtle differences.They say that if you know one of them , its easier to learn the other. This statement may be true, but it is also very easy to misplace and confuse code syntax for either of the progamming languages. 
 
-This quiz is aimed to help instill a lot of the differences between the two so that it is easier for user to code when they use either one of the languages in a program. 
+This quiz is aimed to help instil a lot of the differences between the two so that it is easier for users to code when they use either one of the languages in a program. 
 
 The website is especially designed for newbies to coding or the tech world. When learning all the different languages at once, the information may be overwhelming and this quiz is created to help grasp the difference between the two languages in a fun, interactive way.
 
@@ -57,11 +57,11 @@ The website is especially designed for newbies to coding or the tech world. When
 
 #### First Time Visitor Goals
 
-* As a user, I want to know about the game from looking at it so that i can play the game being informed about the content.
+* As a user, I want to know about the game from looking at it so that i can play the game with being informed about the content.
 * As a user, I want to find out how to play game so that i can play the game efficiently.
-* As a user, I want see if my answer is correct so that my score increases.
-* As a user, I want to see time limit i have left so that i dont run out of time when playing.
-* As a user, I want to see my score at the end so that i can evaaluate if i'm weel versed with Javascript or Python syntax.
+* As a user, I want see if my answer is correct so that my score increases and i perform well.
+* As a user, I want to see time i have left so that i dont run out of time when playing.
+* As a user, I want to see my score at the end so that i can evaluate if i'm well versed with Javascript or Python syntax.
 
 #### Returning Visitor Goals
 
@@ -72,17 +72,17 @@ The website is especially designed for newbies to coding or the tech world. When
 
 ## Design
 
-I wanted to keep the colour scheme to match with background video, and chose few colours to not overwhelm users when playing the game. The main colour which is a yellow-orange color was selected because it's a colour that  creates a sense of excitement and enthusiasm. The background video contains floating particles of a similar shade and it gived the illusion of diving deep into an alternate universe(usually how it feels when you code for hours!)
+I wanted to keep the colour scheme to match with background video, and chose few colours to not overwhelm users when playing the game. The main colour which is a yellow-orange color(#FF9F00) was selected because it's a colour that  creates a sense of excitement and enthusiasm. The background video contains floating particles of a similar shade and it gives the illusion of diving deep into an alternate universe(usually how it feels when you code for hours!)
 
 ### Colour Scheme
 
 The colours below are used in the following instances:
-* #FF9F00 - Used for button colors,background colours, some texts. This is used as the main color..
+* #FF9F00 - Used for button colors,background colours, some texts. This is used as the main color for game.
 * #C1C1C1 - Opted out of not using this in final design because there was no need, and inserting the colour made the area dull.
 * #2B2B2B - Used as Primary and secondary text colors and as background color to contrast against the main color(#FF0F00).
 * #FAF9F6 - Used as background color for answer buttons
-* #226F54 - Used to alert user if answer clicked is correct- turns the button to this color and gives the section border the same shadow.
-* #E04C4C - Used to alert user if answer clicked is incorrect- turns the button to this color and gives the section border the same shadow.
+* #226F54 - Used to alert user if answer clicked is correct- turns the button to this color and gives the section border the same box-shadow color.
+* #E04C4C - Used to alert user if answer clicked is incorrect- turns the button to this color and gives the section border the same box-shadow color.
 ![Python Vs Javascript Quiz Color Scheme](documentation/color-palette-quiz.png)
 
 ### Typography
@@ -92,12 +92,12 @@ I used [Google Fonts](https://fonts.google.com/) to import the chosen fonts .
 * [Noto Serif](https://fonts.google.com/noto/specimen/Noto+Serif?preview.text=JavaScript%20Vs%20Python&preview.text_type=custom&query=noto+serif&sort=popularity&noto.query=novecento) - Used for All headings and Questions.
 * [Open Sans](https://fonts.google.com/specimen/Open+Sans?preview.text=JavaScript%20Vs%20Python&preview.text_type=custom&query=open+sans&sort=popularity&noto.query=novecento) - Used for all other texts in game.
 
-Noto Serif is a serif typeface created by Google specially for users to consume written digital content. I thought it would be appropriate for a quiz game which is educational.
+Noto Serif is a serif typeface created by Google  for users to consume written digital content. I thought it would be appropriate for a quiz game which is educational.
 I first got the heading font i wanted from Google fonts and i used [typ.io](https://typ.io/fonts/noto_serif) to get a font that it pairs well with .
 
 ### Imagery
 
-I did not use any images , but my background video was chosen it gives the feeling of delving deep into the world of coding and programing languages. The credits for the background video is in [Credits](#credits) section.
+I did not use any images , but my background video was chosen because it gives the feeling of delving deep into the world of coding and programing languages. The credits for the background video is in [Credits](#credits) section.
 
 ### Wireframes
 
@@ -119,19 +119,20 @@ As i developed my game, My design for the game changed because of time constrain
 
 ### Features
 
-The website is comprimised of a home page, game page, score page, how to play page and a 404 error page.
+The game is comprised of a home page, game page, score page, how to play page and a 404 error page.
 
-The Home page, Game page, Score page and How to play page are implemented in index.html. Css style display was used to hide and display the certain sections at certain points in the game. 
+* The Home page, Game page, Score page/Gameover page and How to play page are implemented in index.html. Css style display was 
+  used to hide and display the certain sections at certain points in the game. 
 
-The 404 error page  is in a seperate html file called 404.html.
+* The 404 error page  is in a seperate html file called 404.html.
 
 All sections in the game have the following in common: 
 
-* The Quiz Heading(Located at top of every section of game.)
+* The Quiz Heading(Located at top center of every stage of the game.)
 
 ![Quiz Heading](documentation/quiz-heading.png)
 
-* A Copyright statement(Located at the bottom of the page.)
+* A Copyright statement(Located at the bottom of the screen.)
 
 ![Copyright Statement](documentation/copyright-statement.png)
 
@@ -139,13 +140,12 @@ All sections in the game have the following in common:
 
 ![Favicon](documentation/favicon-feature.png)
 
-The different sections in index.html
+**The different sections in index.html**
 
-* Home page 
-
-The home page consists of Quiz heading, A container that gives a short description to user, Buttons that can be clicked on to see how to play the game and to actually play the game . An input area to enter username is also included.
 
 ### HOME page
+
+The home page consists of Quiz heading, A container that gives a short description to user, Buttons that can be clicked on to see how to play the game and to actually play the game . An input field area to enter username is also included.
 
 ![Home page](documentation/am-i-responsive/am-i-responsive-quiz.png)
 
