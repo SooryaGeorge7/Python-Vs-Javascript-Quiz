@@ -142,10 +142,11 @@ Full Testing was performed on these devices and browsers for each section of gam
 |           | Input field for username | * When hovered on - the field color changes and the cursor changes to text cursor and a message is shown that says "please fill out this field" <br> * When clicked on - field color changes back and the field Allows user to type| As expected result except hover effect doesnt work on touch screens | pass |
 |           | Username Validation Message| * Should pop up when user clicks on Play Quiz button without entering anything in input field. <br> * Should pop up if user enters a username with only 2 charectors or less.<br> * Should be displayed if user enters username with an blank spaces | As expected result | Pass |
 | --- | --- | --- | --- | --- |
-|           | Quiz Heading| | | |
-|           |Copyright Statement| | | |
-| iPhone 12 Pro | How To Play Button | | | |
-|           |Play Quiz Button |  |  |  |  |
-|           | Input field for username |  |  |  |
-|           | Username Validation|  |  |  |
+| iPhone 12 pro || Quiz Heading| To appear on top of home page and be of font style noto serif, with linear gradient css style| seen as expected  | pass |
+|           |Copyright Statement| To appear at bottom of screen, centered and in open sans font style with linear gradient css style|  as expected result| pass|
+|           | How To Play Button | *When hovered on-resulting in a white boxshadow <br> * when clicked on- redirects user to How To Play Page | As expected result | Pass |
+|           |Play Quiz Button | *When hovered on - reslts in a white boxshadow effect <br> * When Clicked on- if a valid username has been given in input field, the user will be directed to the game page. If no username was placed in input field, it will trigger a validation message just above the button. If username given was inavlid, the playbutton will trigger a validation message as well. | As expected result |  Pass |  
+|           | Input field for username | * When hovered on - the field color changes and the cursor changes to text cursor and a message is shown that says "please fill out this field" <br> * When clicked on - field color changes back and the field Allows user to type| As expected result except hover effect doesnt work on touch screens | pass |
+|           | Username Validation Message| * Should pop up when user clicks on Play Quiz button without entering anything in input field. <br> * Should pop up if user enters a username with only 2 charectors or less.<br> * Should be displayed if user enters username with an blank spaces | As expected result | Pass |
+| --- | --- | --- | --- | --- |
 
