@@ -351,9 +351,9 @@ I would like to acknowledge the following people in helping with me project one 
 
 * My husband for supporting me through my decision to do this course and through all the late nights and meltdowns so far especially knowing that this will only get worse through the course of the year. :D 
 * My friends ,family and colleagues who have tested my site on their devices to make sure all looks and works well.
-* My Mentor Brian O'Hare for guiding me and giving constructive critism in our 3 mentor sessions so far.
+* My Mentor Brian O'Hare for guiding me and giving constructive critism in our 6 mentor sessions so far.
 * Kera cudmore's readme template that helped me tremendously.
 * I want to thank Michelle Mattera for giving me great feedback in peer-code-review channel in Slack.
-* I acknowledge Naoise Gaffney for replying to my question about a bug on ask-anything slack group.
+* I acknowledge Naoise Gaffney for replying to my question about a bug on Learn-javascript slack group.
 * UCD academy novemeber private group in slack for our almost weekly facilitator sessions that have helped me in getting some our doubts cleared with regards to the project.
 * Chris Quinn for delivering our facilitator and master classes so far which has helped me to not feel completly alone in this journey.
