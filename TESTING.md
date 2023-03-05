@@ -131,7 +131,7 @@ Full Testing was performed on these devices and browsers for each section of gam
 3. Mozilla firefox	
 4. Safari
 
-`Home Page`
+`Home Page Section`
 
 |Features|Expected result| Actual result| Pass/Fail | 
 | ------ | ------------- | ------------ | --------- |
@@ -142,6 +142,18 @@ Full Testing was performed on these devices and browsers for each section of gam
 | Input field for username | * When hovered on - the field color changes and the cursor changes to text cursor and a message is shown that says "please fill out this field" <br> * When clicked on - field color changes back and the field Allows user to type| As expected result except hover effect doesnt work on touch screens | pass |
 | Username Validation Message| * Should pop up when user clicks on Play Quiz button without entering anything in input field. <br> * Should pop up if user enters a username with only 2 charectors or less.<br> * Should be displayed if user enters username with an blank spaces | As expected result | Pass |
 
+`Game Page Section`
+
+|Features|Expected result| Actual result| Pass/Fail | 
+| ------ | ------------- | ------------ | --------- |
+| Quiz Heading| To appear on top of screen and be of font style noto serif, with linear gradient css style| seen as expected  | pass |
+|Copyright Statement| To appear at bottom of screen, centered and in open sans font style with linear gradient css style|  as expected result| pass|
+| Question number feature| The value for feature should increase by 1 everytime an option is selected. | As expected result | Pass |
+| Score feature | * The value for score should increase by 1 everytime an answer selected was correct or when answer button turns green <br> * The value for score should decrease by 1 everytime an answer selected was incorrect or when answer button turns red. | As expected result | pass |
+| Count Down Timer | * The countdown should start at 60 seconds at start of game. When it reaches 0 seconds, the game should end and redirect user to Gameover page with display message "sorry you've run out of time"| As expected result | Pass |
+| Remaining Questions feature |* When game starts , The value for remaining is 10. Everytime the player moves on to another question the value should decrease by 1 . For the last question, The value for "Remaining" should be 0. | As expected result | Pass |
+|Answer Buttons-<br>`Python` and `JavaScript` | * When hovered on - should show user boxshadow effect and text color changing. <br> * When clicked on - * Should either turn green or red according to if answer is correct or wrong. <br> *Should promt to show user the next question and allow changes to values of scores, question and remaining. | As expected result except hover effect doesnt work on touchscreens| Pass |
+| Questions/Statements | Should be legible and in color #2b2b2b with textshadow #FAF9F6 | As expected result | Pass |
 
 
 
