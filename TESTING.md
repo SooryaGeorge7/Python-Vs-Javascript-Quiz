@@ -175,3 +175,10 @@ Full Testing was performed on these devices and browsers for each section of gam
 | Instructions on how to play | The instructions are displayed as one sentence at a time , where there is space between each sentence . | As expected result | Pass | 
 | Go Back Button | * When hovered on - Pointer changes to cursor, shows box shadow style. <br> * when clicked on - Takes user back to Home page | As expected result | Pass |
 
+`404 Page`
+
+|Features|Expected result| Actual result| Pass/Fail | 
+| ------ | ------------- | ------------ | --------- |
+|Quiz error Heading | The subheading should be in the yellow container , and should be displayed centered and at the top | As expected result | Pass |
+| Error message | User should be shown an error message and give instructions on how to go back to game | As expected result | Pass |
+| Go back link(looks like button) | * When hovered on - Cursor changes to pointer and displays boxshadow style. <br> * When clicked on - Lets user to go back to "index.html" | As expected result | Pass |
