@@ -165,6 +165,8 @@ The home page consists of Quiz heading, A container that gives a short descripti
 ---
 ### GAMES page
 
+The games page contains a container of color (shade of #FF9F00).It has a score container on top that shows user their score, the question they are on, time remaining , and how many questions are remaining.Below this container, questions or statments that user have to read are displayed. The container also has answer buttons with options Python or Javascript that can be clicked on by user.
+
 ![Games page](documentation/am-i-responsive/am-responsive-gamepage.png)
  
  * The different features of the game page:
@@ -172,16 +174,18 @@ The home page consists of Quiz heading, A container that gives a short descripti
 
    ![Score container](documentation/gifs/game-page-gifs/score-container-feature.gif)
 
-   * **The questions section** that displays another question every time user answers a question.
+   * **The questions section** that displays another question/statement every time user clicks answer button.
 
    ![Questions](documentation/gifs/game-page-gifs/questions-feature.gif)
 
-   * **The Answer buttons** which indicates to the user if the answer clicked is actually correct or incorrect by turning a shade pr red or green. 
+   * **The Answer buttons** which indicates to the user if the answer clicked is actually correct or incorrect by turning a shade of red or green. 
 
    ![Answer Button](documentation/gifs/game-page-gifs/answer-button-feature.gif)
 
 ---
 ### GAMEOVER page
+
+The gameover page contains a "no time left" statement that only appears if user runs out of time before completing all 10 questions, An area that shows your score and a performance message depending on how well you did and a `play again` button that allows user to play again if they wanted to.
 
 ![Gameover page](documentation/am-i-responsive/am-i-responsive-gameover.png)
  
@@ -194,12 +198,14 @@ The home page consists of Quiz heading, A container that gives a short descripti
 
    ![Performance](documentation/gifs/gameover-page-gifs/performance-feature.gif)
 
-   * A **Play Again** button where it allows you to play again
+   * A **Play Again** button where it allows you to play again.
 
    ![Play again Button](documentation/gifs/gameover-page-gifs/play-again-feature.gif)
 
 ---
 ### HOW TO PLAY page
+
+The How to play page has a container of color (shade of #FF9F00) as well with heading and description on how to play the game. It also has a `Go Back` button that can be clicked on to return to home page.
 
 ![How To Play page](documentation/am-i-responsive/am-i-responsive-howtoplay.png)
  
@@ -215,6 +221,8 @@ The home page consists of Quiz heading, A container that gives a short descripti
 ---
 
 ### 404 page
+
+The 404 page has a container of color (shade of #FF9F00) as well with heading and description on a possible error that happened and how to return to game. It has a `Go Back` button(link that looks like button) that can be clicked on to return to home page.
 
 ![404 page](documentation/am-i-responsive/am-i-responsive-404.png)
  
