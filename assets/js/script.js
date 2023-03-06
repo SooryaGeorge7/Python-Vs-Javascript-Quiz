@@ -109,8 +109,6 @@ slicedQuestions = questions.slice(0, maxTen);
 //Function that takes in the array and displays question and answer choices.
 function displayQuestions(question) {
     questionArea.innerText = question.question;
-    python.innerText = question.choice[0];
-    javaScript.innerText = question.choice[1];
     
 }
 
@@ -120,19 +118,20 @@ let answerSelected;
 //Create function that takes in the action of "click" on either answer choices and the checks if the answer selected was infact the correct answer.
 //Learnt to do event target correctly here https://www.w3schools.com/jsref/event_target.asp
 function checkAnswer(event) {
-    answerSelected = event.target;
-    let selected = answerSelected.innerText;
+    answerSelected = event.target
+    let selected = answerSelected.innerHTML;
     let rightAnswer = slicedQuestions[currentIndex].correct;
+    
     //Use if and else statements to turn selected answer to either shade of red or green.
     //Learnt how to change color or styles for only few seconds or a second here:https://stackoverflow.com/questions/5600351/javascript-change-css-color-for-5-seconds
     if (selected === rightAnswer){
-        answerSelected.style.background= "#226F54";
+        answerSelected.style.background= "#226F54"; 
         gamePage.style.boxShadow = " 0 4px 8px 0 #226F54, 0 6px 20px 0 #226F54";
         setTimeout(function(){
             answerSelected.style.background = "radial-gradient(  rgba(250,249,246,5),rgba(250,249,246,0.4))";
             answerSelected.style.borderStyle = "outset";
             answerSelected.style.color ="#2B2B2B";
-            answerSelected.style.boxShadow = "none";
+            answerSelected.style.boxShadow = "none"; 
             gamePage.style.boxShadow = "none";
             //used -- or ++ to either increase(scores, number) value of variables or descrease(for remaining questions)
             questionsLeft.innerText= --qLeft;
@@ -202,7 +201,7 @@ function countDown() {
 function showScore() {
     showScores.innerHTML = `Your Score: ${userscore}/10`;
     if (userscore == 10) {
-        performances.innerHTML = `Congraturlations! You really know your stuff ${userName.value}!`;
+        performances.innerHTML = `Congratulations! You really know your stuff ${userName.value}!`;
     }else if (userscore >= 7){
         performances.innerHTML = `Well done ${userName.value}! This is a good score but there is still room for improvement`;
     }else if (userscore < 7, userscore >= 5){

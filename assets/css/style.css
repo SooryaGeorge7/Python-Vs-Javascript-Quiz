@@ -220,6 +220,7 @@ h2 {
     background:  radial-gradient(  rgba(250,249,246,1),rgba(250,249,246,0.4));
     border-style: outset;
 }
+
 /* Hover effect set to !important because of javascript changes*/
 .answer-btn button:hover {
     color:rgba(43, 43, 43, 0.7) !important;
@@ -305,9 +306,7 @@ h2 {
     #how-to-play-info p #error-page p{
         font-size: 1rem;
     }
-    #how-to-play>div{
-       
-    }
+    
     #results {
         padding: 1rem;
     }
