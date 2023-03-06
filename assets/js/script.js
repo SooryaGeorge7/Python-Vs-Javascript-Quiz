@@ -45,7 +45,7 @@ const usernameLength = "*Please enter a name longer than 2 charectors*";
 const checkSpace = "*Please enter a name with no spaces*";
 
 //Function to validate username
-// Learnt to use index of to check for blank spaces https://www.w3schools.com/jsref/jsref_indexof.asp
+//Learnt to use index of to check for blank spaces https://www.w3schools.com/jsref/jsref_indexof.asp
 //Learnt that i had to convert intergers herehttps://stackoverflow.com/questions/1133770/how-to-convert-a-string-to-an-integer-in-javascript
 function validateMessage() {
     if(userName.value.length <= parseInt(2)) {
@@ -89,9 +89,9 @@ slicedQuestions = questions.slice(0, maxTen);
  let currentIndex = 0;
  let counting;
 
- //Function for game  which displays game page, and hides home page.
- //It calls a function to display questions, countdown , and displays the starting value for score container in game page
- //Learn how to start a countdown using setInterval here https://www.educative.io/answers/how-to-create-a-countdown-timer-using-javascript
+ /**Function for game  which displays game page, and hides home page.
+  *It calls a function to display questions, countdown , and displays the starting value for score container in game page
+  *Learnt how to start a countdown using setInterval here https://www.educative.io/answers/how-to-create-a-countdown-timer-using-javascript*/
  function playGame() {
     gamePage.style.display = "flex";
     homePage.style.display = "none";
