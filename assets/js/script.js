@@ -1,37 +1,35 @@
 // Username Validation
-let userName = document.getElementById('username');
-let validationMessage = document.getElementById('validation');
+const userName = document.getElementById('username');
+const validationMessage = document.getElementById('validation');
 
 //Different sections in game
-let homePage = document.getElementById('home-page');
-let gamePage = document.getElementById('game-page');
-let gameoverPage = document.getElementById('gameover-area');
-let howToplay = document.getElementById('how-to-play');
+const homePage = document.getElementById('home-page');
+const gamePage = document.getElementById('game-page');
+const gameoverPage = document.getElementById('gameover-area');
+const howToplay = document.getElementById('how-to-play');
 
 //Buttons
-let howTo = document.getElementById('how');
-let playButton = document.getElementById('start-game');
+const howTo = document.getElementById('how');
+const playButton = document.getElementById('start-game');
 
 //Game page questions
-let questionArea = document.getElementById('questions');
+const questionArea = document.getElementById('questions');
 
-//Answer Buttons
-let python = document.getElementById('python');
-let javaScript = document.getElementById('javascript');
-let ansButton = document.getElementsByClassName('answer');
+//Answer Button
+const ansButton = document.getElementsByClassName('answer');
 
 //Game starts with display of timer,first question, remaining questions, and score 
-let questionNumber =document.getElementById('question-number');
-let score = document.getElementById('your-score');
-let questionsLeft = document.getElementById('question-remaining');
-let timer = document.getElementById('timer');
+const questionNumber =document.getElementById('question-number');
+const score = document.getElementById('your-score');
+const questionsLeft = document.getElementById('question-remaining');
+const timer = document.getElementById('timer');
 
 //Div that shows if time has run out.
-let noTime = document.getElementById('no-time-left');
+const noTime = document.getElementById('no-time-left');
 
 //Game over page that will show user's performance
-let showScores = document.getElementById('show-score');
-let performances = document.getElementById('performance');
+const showScores = document.getElementById('show-score');
+const performances = document.getElementById('performance');
 
 //Function that displays the page that shows you how to play
 function howtoPlay(){
@@ -43,8 +41,8 @@ function howtoPlay(){
 howTo.addEventListener('click', howtoPlay);
 
 //Validate username using variables
-let usernameLength = "*Please enter a name longer than 2 charectors*";
-let checkSpace = "*Please enter a name with no spaces*";
+const usernameLength = "*Please enter a name longer than 2 charectors*";
+const checkSpace = "*Please enter a name with no spaces*";
 
 //Function to validate username
 // Learnt to use index of to check for blank spaces https://www.w3schools.com/jsref/jsref_indexof.asp
@@ -121,7 +119,7 @@ function checkAnswer(event) {
     //answerSelected = event.target
     //let selected = answerSelected.innerHTML;
     //let rightAnswer = slicedQuestions[currentIndex].correct;
-    answerSelected = event.currentTarget.getAttribute("id")
+    answerSelected = event.currentTarget.getAttribute("id");
     let selected = event.currentTarget.innerText;
     let rightAnswer = slicedQuestions[currentIndex].correct;
     //Use if and else statements to turn selected answer to either shade of red or green.
@@ -196,7 +194,7 @@ function gameOver() {
 
 //Define variables for countdown function
 let secsLeft = 60;
-let noTimeleft = "Sorry, You've run out of time!";
+const noTimeleft = "Sorry, You've run out of time!";
 
 // This function decreases secsLeft value as countdown timer starts. When value decreases to 0 or less, It calls out gameOver() and noTime div displays message.
 function countDown() {
