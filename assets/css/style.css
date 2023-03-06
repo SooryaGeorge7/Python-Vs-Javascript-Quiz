@@ -223,10 +223,10 @@ h2 {
 
 /* Hover effect set to !important because of javascript changes*/
 .answer-btn button:hover {
-    color:rgba(43, 43, 43, 0.7) !important;
-    box-shadow:0 4px 8px 0 #FF9F00, 0 6px 20px 0 #FF9F00 !important;
-    border-style: inset !important;
-    cursor: pointer !important; 
+    color:rgba(43, 43, 43, 0.7) ;
+    box-shadow:0 4px 8px 0 #FF9F00, 0 6px 20px 0 #FF9F00 ;
+    border-style: inset ;
+    cursor: pointer ; 
 }
 
 /*set these pages to none, this will be changed in functions in javascript file*/
@@ -282,6 +282,19 @@ h2 {
     width: 100%;
     padding:0.5rem;
     
+}
+.correctbtn {
+    background-color: #226F54 !important;
+
+}
+.incorrectbtn {
+    background-color: #E04C4C !important;
+}
+.incorrect-shadow {
+    box-shadow:0 4px 8px 0 #E04C4C, 0 6px 20px 0 #E04C4C;
+}
+.correct-shadow {
+    box-shadow: 0 4px 8px 0 #226F54, 0 6px 20px 0 #226F54;
 }
 /*Tablets*/
 @media screen and (min-width: 481px){

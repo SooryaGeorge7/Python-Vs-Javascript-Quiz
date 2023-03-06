@@ -133,6 +133,7 @@ function checkAnswer(event) {
             answerSelected.style.color ="#2B2B2B";
             answerSelected.style.boxShadow = "none"; 
             gamePage.style.boxShadow = "none";
+            
             //used -- or ++ to either increase(scores, number) value of variables or descrease(for remaining questions)
             questionsLeft.innerText= --qLeft;
             questionNumber.innerText = ++qNumber;
