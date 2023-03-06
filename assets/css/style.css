@@ -202,15 +202,27 @@ h2 {
     font-weight: bold;
     text-shadow: 0 0 3px #faf9f6, 0 0 5px #faf9f6;
 }
+#answer-btn > .correctbtn {
+    background: #226F54 ;
 
+}
+#answer-btn > .incorrectbtn {
+    background: #E04C4C ;
+}
+.incorrect-shadow {
+    box-shadow:0 4px 8px 0 #E04C4C, 0 6px 20px 0 #E04C4C;
+}
+.correct-shadow {
+    box-shadow: 0 4px 8px 0 #226F54, 0 6px 20px 0 #226F54;
+}
 /*Buttons with answers*/
-.answer-btn {
+#answer-btn {
     display:flex;
     flex-direction: column;
     justify-content: space-around;
 
 }
-.answer-btn button {
+.answer {
     margin:0.5rem;
     font-size: 1rem;
     text-transform: uppercase;
@@ -222,11 +234,11 @@ h2 {
 }
 
 /* Hover effect set to !important because of javascript changes*/
-.answer-btn button:hover {
-    color:rgba(43, 43, 43, 0.7) !important;
-    box-shadow:0 4px 8px 0 #FF9F00, 0 6px 20px 0 #FF9F00 !important;
-    border-style: inset !important;
-    cursor: pointer !important; 
+.answer:hover {
+    color:rgba(43, 43, 43, 0.7) ;
+    box-shadow:0 4px 8px 0 #FF9F00, 0 6px 20px 0 #FF9F00 ;
+    border-style: inset ;
+    cursor: pointer ; 
 }
 
 /*set these pages to none, this will be changed in functions in javascript file*/
@@ -353,11 +365,11 @@ h2 {
     .score-container p {
         font-size: 1.25rem;
     }
-    .answer-btn {
+    #answer-btn {
         flex-direction: row;
         margin:2rem;
     }
-    .answer-btn button {   
+    .answer {   
         font-size: 1.5rem;
         padding:1rem;
         width: 45%;
@@ -408,7 +420,7 @@ h2 {
         font-size: 1.5rem;
     }
     
-    .answer-btn button { 
+    .answer { 
         font-size: 2rem;
     }
     #questions {
