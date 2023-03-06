@@ -1,3 +1,4 @@
+//Questions array that contains 30 objects with question and correct answer.
 const questions = [
     {
         question: "console.log()",

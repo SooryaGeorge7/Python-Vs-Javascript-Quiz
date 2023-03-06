@@ -36,7 +36,7 @@ h2 {
     font-family: "noto serif",sans-serif;
 }
 
-/*The sections*/
+/*---The sections---*/
 #gameover-area, #game-page, #how-to-play, #error-page { 
     /*Learnt about radial gradients here https://www.w3schools.com/css/css3_gradients_radial.asp*/
     background: radial-gradient(  rgba(255,159,0, 1),rgba(255,159,0,0.3));
@@ -71,7 +71,7 @@ h2 {
     z-index: 2;
 }
 
-/*Home page description for user*/
+/*---Home page css---*/
 #description { 
     font-weight: bold;
     color: #2B2B2B;
@@ -169,7 +169,7 @@ h2 {
     box-shadow:0 4px 8px 0 #faf9f6, 0 6px 20px 0 #faf9f6 ;
     cursor: pointer;
 }
-
+/*---Game page css---*/
 /*displayed this div as flexbox to make the children responsive*/
 .score-container {
     display: flex;
@@ -202,25 +202,12 @@ h2 {
     font-weight: bold;
     text-shadow: 0 0 3px #faf9f6, 0 0 5px #faf9f6;
 }
-#answer-btn > .correctbtn {
-    background: #226F54 ;
 
-}
-#answer-btn > .incorrectbtn {
-    background: #E04C4C ;
-}
-.incorrect-shadow {
-    box-shadow:0 4px 8px 0 #E04C4C, 0 6px 20px 0 #E04C4C;
-}
-.correct-shadow {
-    box-shadow: 0 4px 8px 0 #226F54, 0 6px 20px 0 #226F54;
-}
 /*Buttons with answers*/
 #answer-btn {
     display:flex;
     flex-direction: column;
     justify-content: space-around;
-
 }
 .answer {
     margin:0.5rem;
@@ -233,7 +220,7 @@ h2 {
     border-style: outset;
 }
 
-/* Hover effect set to !important because of javascript changes*/
+/* Hover effect of answer buttons*/
 .answer:hover {
     color:rgba(43, 43, 43, 0.7) ;
     box-shadow:0 4px 8px 0 #FF9F00, 0 6px 20px 0 #FF9F00 ;
@@ -245,6 +232,8 @@ h2 {
 #game-page, #gameover-area {
     display: none;
 }
+
+/*---gameover page css---*/
 #gameover-area {
     font-size: 1rem;
 }
@@ -252,8 +241,6 @@ h2 {
 #no-time-left {
     font-weight: bold;
     color: #FF9F00;
-    /*padding:1rem;
-    margin:2rem;*/
     position:relative;
     text-align: center;
     text-shadow: 0 0 3px #2B2B2B, 0 0 5px #2B2B2B;
@@ -281,6 +268,7 @@ h2 {
     position: fixed;
     bottom: 0;
 }
+/*Copyright statement seen at bottom of screen at all points*/
 #copyright {
     position: fixed;
     text-align: center;
@@ -295,26 +283,44 @@ h2 {
     padding:0.5rem;
     
 }
-/*Tablets*/
+
+/*---Css to be added in Javascript file---*/
+#answer-btn > .correctbtn {
+    background: #226F54 ;
+}
+#answer-btn > .incorrectbtn {
+    background: #E04C4C ;
+}
+.incorrect-shadow {
+    box-shadow:0 4px 8px 0 #E04C4C, 0 6px 20px 0 #E04C4C;
+}
+.correct-shadow {
+    box-shadow: 0 4px 8px 0 #226F54, 0 6px 20px 0 #226F54;
+}
+
+/*---Break point for Tablets---*/
 @media screen and (min-width: 481px){
     
     .quiz-heading {
         font-size: 2.5rem;
     }
+
     #questions {
         padding-bottom: 0.5rem;
     }
+
     .gameover{
         font-size: 1.5rem;
-        
     }
+
     #gameover-heading {
-        font-size:1.75rem;
-        
+        font-size:1.75rem; 
     }
+
     #how-to-play-info, #error-page div{
         margin:1rem;
     }
+
     #how-to-play-info p #error-page p{
         font-size: 1rem;
     }
@@ -322,93 +328,112 @@ h2 {
     #results {
         padding: 1rem;
     }
+
     #home-page, #gameover-area, #game-page, #how-to-play, #error-page{   
         padding: 1rem;
         
     }
+
     #copyright {
         font-size: 1.125rem;
     }
 
 }
 
-/*Breakpoint for small screens and laptop*/
+/*---Breakpoint for small screens and laptop---*/
 @media screen and (min-width: 768px){
     .quiz-heading {
         font-size: 3.5rem;
         /*top:1rem;*/
     }
+
     #description {
         font-size:1.25rem;
     }
+
     #home-question {
         font-size:1.25rem;
     }
+
     .play, #playagain, .go-back, #how{
         font-size: 1.25rem;
     }
+
     #how-to-play h2, #error-page h2{
         font-size: 2rem;
     }
+
     #how-to-play p, #error-page p{
         font-size: 1.25rem;
     }
+
     .username-div {
         width:60%;
         margin:1rem auto;
         padding:2rem;
     }
+
     .score-container {
         flex-wrap: nowrap;
         padding:0.5rem;
     }
+
     .score-container p {
         font-size: 1.25rem;
     }
+
     #answer-btn {
         flex-direction: row;
         margin:2rem;
     }
+
     .answer {   
         font-size: 1.5rem;
         padding:1rem;
         width: 45%;
     }
+
     #questions {
         font-size: 1.75rem;
         padding-bottom:0;
     }
+
     .score-container p {
         font-size: 1.125rem;
         margin:0.25rem;
     }
+
     .gameover{
-        font-size: 1.75rem;
-        
+        font-size: 1.75rem; 
     }
+
     #gameover-heading {
-        font-size:2rem;
-        
+        font-size:2rem;    
     }
 }
-/*Breakpoint for desktop and larger screens*/
+/*---Breakpoint for desktop and larger screens---*/
 @media screen and (min-width: 1024px){
     .quiz-heading {
         font-size: 4.5rem;
     }
+
     #description {
         font-size:1.5rem;
     }
+
     #home-question {
         font-size:1.5rem;
     }
+
     .play, #playagain, .go-back, #how{
         font-size: 1.5rem;
     }
+
     #username {
         width: 11rem;
         height: 2.5rem;
     }
+
     .username-div label {
         font-size: 1.25rem;
     }
@@ -416,6 +441,7 @@ h2 {
     #how-to-play h2, #error-page h2{
         font-size: 2.5rem;
     }
+
     .score-container p {
         font-size: 1.5rem;
     }
@@ -423,17 +449,19 @@ h2 {
     .answer { 
         font-size: 2rem;
     }
+
     #questions {
         font-size: 2rem;
     }
+
     #no-time-left {
         bottom:1rem;
     }
+
     #home-page, #gameover-area, #game-page, #how-to-play, #error-page {
-        max-width: 50rem;
-        
-        
+        max-width: 50rem;  
     }
+
     #gameover-heading {
         font-size:2.5rem;
         

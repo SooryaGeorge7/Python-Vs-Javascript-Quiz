@@ -113,28 +113,20 @@ function displayQuestions(question) {
 //Define the button you choose as your answer as variable.
 let answerSelected;
 
-//Create function that takes in the action of "click" on either answer choices and the checks if the answer selected was infact the correct answer.
+/**Create checkAnswer function that takes in the action of
+ *  "click" eevent on either answer choices and then checks if the answer selected was infact the correct answer.*/
 //Learnt to do event target correctly here https://www.w3schools.com/jsref/event_target.asp
 function checkAnswer(event) {
-    //answerSelected = event.target
-    //let selected = answerSelected.innerHTML;
-    //let rightAnswer = slicedQuestions[currentIndex].correct;
     answerSelected = event.currentTarget.getAttribute("id");
     let selected = event.currentTarget.innerText;
     let rightAnswer = slicedQuestions[currentIndex].correct;
-    //Use if and else statements to turn selected answer to either shade of red or green.
+    /**Use if and else statements to turn selected answer to either shade of red or green by 
+     * adding css from stylesheet using classList.add()*/
     //Learnt how to change color or styles for only few seconds or a second here:https://stackoverflow.com/questions/5600351/javascript-change-css-color-for-5-seconds
     if (selected === rightAnswer){
-        //answerSelected.style.background= "#226F54"; 
-        //gamePage.style.boxShadow = " 0 4px 8px 0 #226F54, 0 6px 20px 0 #226F54";
         document.getElementById(answerSelected).classList.add("correctbtn");
         gamePage.classList.add("correct-shadow");
         setTimeout(function(){
-            //answerSelected.style.background = "radial-gradient(  rgba(250,249,246,5),rgba(250,249,246,0.4))";
-            //answerSelected.style.borderStyle = "outset";
-            //answerSelected.style.color ="#2B2B2B";
-            //answerSelected.style.boxShadow = "none"; 
-            //gamePage.style.boxShadow = "none";
             document.getElementById(answerSelected).classList.remove("correctbtn");
             gamePage.classList.remove("correct-shadow");
             //used -- or ++ to either increase(scores, number) value of variables or descrease(for remaining questions)
@@ -146,16 +138,9 @@ function checkAnswer(event) {
         //Current index needs to increase with every question inorder to display next question in array    
         currentIndex++;      
     } else {
-        //answerSelected.style.background= "#E04C4C";
-        //gamePage.style.boxShadow = "0 4px 8px 0 #E04C4C, 0 6px 20px 0 #E04C4C";
         document.getElementById(answerSelected).classList.add("incorrectbtn");
         gamePage.classList.add("incorrect-shadow");
         setTimeout(function(){
-            //answerSelected.style.background ="radial-gradient(  rgba(250,249,246,5),rgba(250,249,246,0.4))";
-            //answerSelected.style.borderStyle = "outset";
-            //answerSelected.style.color ="#2B2B2B";
-            //answerSelected.style.boxShadow = "none";
-            //gamePage.style.boxShadow = "none";
             document.getElementById(answerSelected).classList.remove("incorrectbtn");
             gamePage.classList.remove("incorrect-shadow");
             questionsLeft.innerText= --qLeft;
@@ -165,7 +150,6 @@ function checkAnswer(event) {
        currentIndex++;
     }  
 }
-
 
 //Using Event listener for answer buttons. 
 //Learnt how to do this for classes here : https://stackoverflow.com/questions/19655189/javascript-click-event-listener-on-class
