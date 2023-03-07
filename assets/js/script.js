@@ -15,7 +15,7 @@ const playButton = document.getElementById('start-game');
 //Game page questions
 const questionArea = document.getElementById('questions');
 
-//Answer Button
+//Answer Buttons
 const ansButton = document.getElementsByClassName('answer');
 
 //Game starts with display of timer,first question, remaining questions, and score 
@@ -24,10 +24,10 @@ const score = document.getElementById('your-score');
 const questionsLeft = document.getElementById('question-remaining');
 const timer = document.getElementById('timer');
 
-//Div that shows if time has run out.
+//Div that shows a message if time has run out.
 const noTime = document.getElementById('no-time-left');
 
-//Game over page that will show user's performance
+//Game over page that will shows user's performance
 const showScores = document.getElementById('show-score');
 const performances = document.getElementById('performance');
 
@@ -66,33 +66,33 @@ playButton.addEventListener('click', validateMessage);
 
 //Used https://sebhastian.com/fisher-yates-shuffle-javascript/ to learn to randomize objects in array using while loop.
 let i = questions.length;
- while (--i > 0){
+while (--i > 0){
     let randomI = Math.floor(Math.random() * (i+1));
     [questions[randomI], questions[i]] = [questions[i], questions[randomI]];
- }
+}
 
  //Define variables for only returning 1/3rd of array 
 let maxTen; 
 let slicedQuestions;
 
-//Since questions array has 30 object, it can be divided by 3.
+//Since questions array has 30 objects, it can be divided by 3.
 maxTen = Math.ceil(questions.length / 3);
 
-//This is the new array that contains 10 questions
+//This is the new array that contains 10 objects.
 slicedQuestions = questions.slice(0, maxTen);
 
 
- // Starting values for start of game
- let userscore = 0;
- let qNumber = 1;
- let qLeft = 10;
- let currentIndex = 0;
- let counting;
+// Starting values for start of game.
+let userscore = 0;
+let qNumber = 1;
+let qLeft = 10;
+let currentIndex = 0;
+let counting;
 
- /**Function for game  which displays game page, and hides home page.
-  *It calls a function to display questions, countdown , and displays the starting value for score container in game page
-  *Learnt how to start a countdown using setInterval here https://www.educative.io/answers/how-to-create-a-countdown-timer-using-javascript*/
- function playGame() {
+/**Function for game  which displays game page, and hides home page.
+ *It calls a function to display questions, countdown , and displays the starting values for score container in game page
+ *Learnt how to start a countdown using setInterval here https://www.educative.io/answers/how-to-create-a-countdown-timer-using-javascript*/
+function playGame() {
     gamePage.style.display = "flex";
     homePage.style.display = "none";
     displayQuestions(slicedQuestions[currentIndex]);
@@ -107,14 +107,13 @@ slicedQuestions = questions.slice(0, maxTen);
 //Function that takes in the array and displays question and answer choices.
 function displayQuestions(question) {
     questionArea.innerText = question.question;
-    
 }
 
 //Define the button you choose as your answer as variable.
 let answerSelected;
 
 /**Create checkAnswer function that takes in the action of
- *  "click" eevent on either answer choices and then checks if the answer selected was infact the correct answer.*/
+ *  "click" event on either answer choices and then checks if the answer selected was infact the correct answer.*/
 //Learnt to do event target correctly here https://www.w3schools.com/jsref/event_target.asp
 function checkAnswer(event) {
     answerSelected = event.currentTarget.getAttribute("id");
@@ -129,7 +128,7 @@ function checkAnswer(event) {
         setTimeout(function(){
             document.getElementById(answerSelected).classList.remove("correctbtn");
             gamePage.classList.remove("correct-shadow");
-            //used -- or ++ to either increase(scores, number) value of variables or descrease(for remaining questions)
+            //used -- or ++ to either increase(scores, number) value of variables or decrease(for remaining questions).
             questionsLeft.innerText= --qLeft;
             questionNumber.innerText = ++qNumber;
             score.innerText = ++userscore;
@@ -169,7 +168,7 @@ function nextQuestion() {
     }
 }
 
-//Function that displays game over page and calls out showScore function
+//Function that displays game over page and calls out showScore function.
 function gameOver() {
     gamePage.style.display = "none";
     gameoverPage.style.display = "flex";
@@ -199,6 +198,6 @@ function showScore() {
     }else if (userscore < 7, userscore >= 5){
         performances.innerHTML = `${userName.value}, You've just passed but you can definetly do better! `;
     }else {
-        performances.innerHTML = `Oh no, someone needs to revise their notes!Try again ${userName.value}? `;
+        performances.innerHTML = `Oh no, someone needs to revise their notes! Try again ${userName.value}? `;
     }
 }

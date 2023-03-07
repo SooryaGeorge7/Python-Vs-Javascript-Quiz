@@ -84,7 +84,7 @@ h2 {
 
 /*How to play section content*/
 #how-to-play {
-    display:none
+    display:none;
 }
 
 #how-to-play h2, #error-page h2{
