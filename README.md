@@ -235,12 +235,12 @@ The 404 page has a container of color (shade of #FF9F00) as well with heading an
 
    ![Go Back Button](documentation/gifs/404-page-gifs/404-button-gif.gif)
 
-### Future implimentation
+### Future implementation
 
 * I would implement a database that would allow all users scores and usernames to be stored so that new users would be able to compare their score to previous players. 
 * I would implement a pause button, to allow users to stop the game in case of emergencies without having to restart the game again.
 * I would want to be able to implement a share button that allows you to share this game to socials or peers. 
-* I would add a function to create a tick or a cross or add audio to let user know if they've selected correct or incorrect option. (In case for users with vision imparement such as color blindness.)
+* I would add a function to create a tick or a cross or add audio to let user know if they've selected correct or incorrect option. (In case for users with vision impairment such as color blindness.)
 
 
 
@@ -300,7 +300,7 @@ To fork the Python-Vs-Javascript-Quiz Repository:
 #### How to Clone
 To clone the Python-Vs-Javascript-Quiz Repository: 
 1. Log in or Sign up to github.
-2. Find the repository for this proect, SooryaGeorge7/Python-Vs-Javascript-Quiz.
+2. Find the repository for this project, SooryaGeorge7/Python-Vs-Javascript-Quiz.
 3. Click on Code button just left to the green gitpod button.
 4. Select what you would like to clone with (HTTPS/SSH/GitHub CLI) and copy the link shown below.
 5. Open the terminal in your code editor(eg. Gitpod) and change the current working directory to the location you want to use for cloned directory.
@@ -352,9 +352,9 @@ I would like to acknowledge the following people in helping with my project one 
 
 * My husband for supporting me through my decision to do this course and through all the late nights and meltdowns so far especially knowing that this will only get worse through the course of the year. :D 
 * My friends ,family and colleagues who have tested my site on their devices to make sure all looks and works well.
-* My Mentor Brian O'Hare for guiding me and giving constructive critism in our 6 mentor sessions so far.
+* My Mentor Brian O'Hare for guiding me and giving constructive criticism in our 6 mentor sessions so far.
 * Kera cudmore's readme template that have helped me tremendously.
 * I want to thank Michelle Mattera for giving me great feedback in peer-code-review channel in Slack.
 * I acknowledge Naoise Gaffney for replying to my question about a bug on Learn-javascript slack group.
 * UCD academy november private group in slack for our almost weekly facilitator sessions that have helped me in getting some our doubts cleared with regards to the project.
-* Chris Quinn for delivering our facilitator and master classes so far which has helped me to not feel completly alone in this journey.
+* Chris Quinn for delivering our facilitator and master classes so far which has helped me to not feel completely alone in this journey.
