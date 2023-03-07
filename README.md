@@ -119,12 +119,12 @@ As i developed my game, My design for the game changed because of time constrain
 
 ### Features
 
-The game is comprised of a home page, game page, score page, how to play page and a 404 error page.
+The game is comprised of a home page, game page, score page/ gameover page, how to play page and a 404 error page.
 
-* The Home page, Game page, Score page/Gameover page and How to play page are implemented in index.html. Css style display was 
-  used to hide and display the certain sections at certain points in the game. 
+* The **Home page**, **Game page**, **Score page/Gameover page** and **How to play page** are implemented in index.html. Css  
+  style display was used to hide and display the certain sections at certain points in the game. 
 
-* The 404 error page  is in a seperate html file called 404.html.
+* The **404 error page**  is in a seperate html file called 404.html.
 
 All sections in the game have the following in common: 
 
@@ -145,16 +145,16 @@ All sections in the game have the following in common:
 
 ### HOME page
 
-The home page consists of Quiz heading, A container that gives a short description to user, Buttons that can be clicked on to see how to play the game and to actually play the game . An input field area to enter username is also included.
+The home page consists of the Quiz heading, A container that gives a short description to user, Buttons that can be clicked on to see how to play the game and to actually play the game. An input field area to enter username is also included.
 
-![Home page](documentation/am-i-responsive/am-i-responsive-quiz.png)
+![Home page](documentation/am-i-responsive/am-i-responsive-home-page-final.png)
 
  * The different features of the home page: 
    * A **How to play** Button - Allows user to hover, and click which leads user to How to play page.
 
    ![How to play button](documentation/gifs/home-page-gifs/how-to-play-button.gif)
 
-   * A **Play Button** with username validation -  Allows user to hover and click, but it only starts the game after youve entered a valid username.
+   * A **Play Button** with username validation -  Allows user to hover and click, but it only starts the game after you've entered a valid username.
 
    ![Charector validation](documentation/gifs/home-page-gifs/username-validation-charectors.gif)
 
@@ -165,7 +165,7 @@ The home page consists of Quiz heading, A container that gives a short descripti
 ---
 ### GAMES page
 
-The games page contains a container of color (shade of #FF9F00).It has a score container on top that shows user their score, the question they are on, time remaining , and how many questions are remaining.Below this container, questions or statments that user have to read are displayed. The container also has answer buttons with options Python or Javascript that can be clicked on by user.
+The games page contains a container of color (shade of #FF9F00).It has a score container on top that shows user their score, the question they are on, time remaining , and how many questions are remaining.Below this container, questions or statements that the user have to read are displayed. The container also has answer buttons with options Python or Javascript that can be clicked on by user.
 
 ![Games page](documentation/am-i-responsive/am-responsive-gamepage.png)
  
@@ -240,7 +240,8 @@ The 404 page has a container of color (shade of #FF9F00) as well with heading an
 * I would implement a database that would allow all users scores and usernames to be stored so that new users would be able to compare their score to previous players. 
 * I would implement a pause button, to allow users to stop the game in case of emergencies without having to restart the game again.
 * I would want to be able to implement a share button that allows you to share this game to socials or peers. 
-* I would add a function to create a tick or a cross for everytime an answer is selected depending on if its correct or wrong. (In case for users with vision imparement such as color blindness.)
+* I would add a function to create a tick or a cross or add audio to let user know if they've selected correct or incorrect option. (In case for users with vision imparement such as color blindness.)
+
 
 
 ### Accessibility
@@ -314,11 +315,11 @@ All testing was carried out in [Testing.md](TESTING.md).
 
 | Bug | Solution | 
 | :--- | :--- |
-| 1. I wanted the answer that the user clicked on to turn green or red depending on if the selected answer was correct or wrong and then the color to return back to the original color after "click" event. - I first tried implementing this using event listener "click" without using any setTimeout(function()), but it did not allow the color to return back to original color. It just remained the red or green color after clicking.[View bug](documentation/gifs/bugs-gif/answer-button-bug.gif) | I first tried to solve this using mouse down, mouse up events and using that to change colours only when mouse is down, and then return to original colour when mouse is up again. Although this method worked fine on desktops, it did not work on mobiles as there is essentially no mouse being click on. This method would not work on touchscreen devices. I tried implementing touchstart and touch end but that triggered really fast response when touching the screen [View bug](documentation/gifs/bugs-gif/touch-start-bug.gif). I then found a function that would allow something to change color for a few seconds here.https://stackoverflow.com/questions/5600351/javascript-change-css-color-for-5-seconds. This method allowed me to use click event listener and then use if,else if statements to change color when clicking to either(red or green) and then i used setTimeout(function()) to change  color back to original color after 1 second. This function allowed the user to click on an answer(which triggered the answer to change color for the 1 second when user clicks )and then to return back to orginal color when the 1 second was up.|
-| 2. I wanted to position all sections(except header and footer) in the game to be centered(vertically and horizontally) on the screen- When using position: relative for this the sections are never at the center of the screen.[View bug](documentation/gifs/bugs-gif/not-centered-bug.gif) | I solved this by changing position to absolute, and adding left:50%;transform: translate(-50%, -50%); top:50%; in css stylesheet to the sections which allowed the main sections of the game to always be centered on any screen.[View final](documentation/gifs/bugs-gif/not-centered-bug-solved.gif) |
+| 1. I wanted the answer that the user clicked on to turn green or red depending on if the selected answer was correct or wrong and then the color to return back to the original color after "click" event. - I first tried implementing this using event listener "click" without using any setTimeout(function()), but it did not allow the color to return back to original color. It just remained the red or green color after clicking.[View bug](documentation/gifs/bugs-gif/answer-button-bug.gif) | I first tried to solve this using mouse down, mouse up events.These allowed buttons to change colours only when mouse is down, and then return to original colour when mouse is up again. Although this method worked fine on desktops, it did not work on mobiles as there is essentially no mouse being click on. This method would not work on touchscreen devices. I tried implementing touchstart and touch end but that triggered really fast response when touching the screen [View bug](documentation/gifs/bugs-gif/touch-start-bug.gif). I then found a function that would allow something to change color for a few seconds here.https://stackoverflow.com/questions/5600351/javascript-change-css-color-for-5-seconds. This method allowed me to use click event listener and then use if,else if statements to change color when clicking to either(red or green) and then i used setTimeout(function()) to change  color back to original color after 1 second. This function allowed the user to click on an answer(which triggered the answer to change color for the 1 second when user clicks )and then to return back to orginal color when the 1 second was up.|
+| 2. I wanted to position all sections(except header and footer) in the game to be centered(vertically and horizontally) on the screen- When using position: relative for this, the sections were never at the center of the screen.[View bug](documentation/gifs/bugs-gif/not-centered-bug.gif) | I solved this by changing position to absolute, and adding left:50%;transform: translate(-50%, -50%); top:50%; in css stylesheet to the sections which allowed the main sections of the game to always be centered on any screen.[View final](documentation/gifs/bugs-gif/not-centered-bug-solved.gif) |
 | 3. My copyright statement was intially moving with the game section of the game. Have a look here to understand what i mean.[View bug](documentation/gifs/bugs-gif/copyright-bug.gif) | I wanted the copy right statement to always remain at the bottom of the screen so i changed position to fixed, and added left: 50%; transform: translate(-50%, -50%); to achieve the effect of the statement always remaining at the bottom of any screen when playing the game.[View final](documentation/gifs/bugs-gif/copyright-bug-solved.gif) |
 | 4. I noticed after deploying that when i click username input field, the heading, sections and copyright statement overlap on my mobile. (only happens on mobile).[View bug](documentation/gifs/bugs-gif/overlap-bug.gif)I tried setting height to sections, margins , paddings, none of which worked. Only when setting the position of sections to relative that there were no overlap, but setting section's position to relative did not create the effect i wanted for my game ( wanting the game to be centered and copyright statement to always remain at the bottom of the screen)I realized none of this would have been a problem if i had not set my background to be a video. I had to set position to sections inorder for my sections to display over my background video.| Then i found a solution here that allowed hiding of other sections using z-index. If i set my main section z-index to 2, and the header and and footer z-index to 1, the the overlapping effect would not be seen by user in smaller screens. [View final](documentation/gifs/bugs-gif/overlap-bug-solved.gif) |
-| 5. When initially setting coundown for game i assumed that the timer will automatically end if user finsihes all 10 questions before time was up. The sentence that states "Sorry, You've run out of time" should only appear if user failed to complete all 10 questions in the time given. At this stage , if user was still viewing the gameover page until the countdown was done, the message automatically popped up eventhough user completed game in time. [View Bug Here](documentation/gifs/bugs-gif/countdown-bug.gif)| This was fixed by implementing function clearInterval() which stops the timer as soon as the gameover page is shown. |
+| 5. When initially setting countdown for game i assumed that the timer will automatically end if user finsihes all 10 questions before time was up. The sentence that states "Sorry, You've run out of time" should only appear if user failed to complete all 10 questions in the time given. At this stage, if user was still viewing the gameover page until the countdown was done, the message automatically popped up eventhough user completed the game in time. [View Bug Here](documentation/gifs/bugs-gif/countdown-bug.gif)| This was fixed by implementing function clearInterval() which stops the timer as soon as the gameover page is shown. |
 
 ### Known Bugs
 
@@ -347,13 +348,13 @@ All testing was carried out in [Testing.md](TESTING.md).
 
 ### Acknowledgements
 
-I would like to acknowledge the following people in helping with me project one way or another: 
+I would like to acknowledge the following people in helping with my project one way or another: 
 
 * My husband for supporting me through my decision to do this course and through all the late nights and meltdowns so far especially knowing that this will only get worse through the course of the year. :D 
 * My friends ,family and colleagues who have tested my site on their devices to make sure all looks and works well.
 * My Mentor Brian O'Hare for guiding me and giving constructive critism in our 6 mentor sessions so far.
-* Kera cudmore's readme template that helped me tremendously.
+* Kera cudmore's readme template that have helped me tremendously.
 * I want to thank Michelle Mattera for giving me great feedback in peer-code-review channel in Slack.
 * I acknowledge Naoise Gaffney for replying to my question about a bug on Learn-javascript slack group.
-* UCD academy novemeber private group in slack for our almost weekly facilitator sessions that have helped me in getting some our doubts cleared with regards to the project.
+* UCD academy november private group in slack for our almost weekly facilitator sessions that have helped me in getting some our doubts cleared with regards to the project.
 * Chris Quinn for delivering our facilitator and master classes so far which has helped me to not feel completly alone in this journey.

@@ -22,6 +22,7 @@
 I used google developer tools throughout development of game to test different aspects and stages of the game.
 I also used the console section in chrome dev tools to test javascript code and also to check and troubleshoot any issues that arise in the code too. 
 
+
 ---
 
 ## Automated Testing 
