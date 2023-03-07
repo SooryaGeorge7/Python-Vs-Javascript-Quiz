@@ -6,9 +6,9 @@
 
 How confident are you in knowing the difference between Python and Javascript ? 
 
-Test your knowledge with this quiz in order to validate your knowledge(Yes, i used the term validate because testing just your website may not be enough!)
+Test your knowledge with this quiz in order to validate your knowledge(Yes, i used the term "validate" because testing just your website may not be enough!)
 
-The languages Javascript and Python have a lot in common, but also subtle differences.They say that if you know one of them , its easier to learn the other. This statement may be true, but it is also very easy to misplace and confuse code syntax for either of the progamming languages. 
+The languages Javascript and Python have a lot in common, but also subtle differences(atleast in terms of syntax).They say that if you know one of them , its easier to learn the other. This statement may be true, but it is also very easy to misplace and confuse code syntax for either of the progamming languages. 
 
 This quiz is aimed to help instil a lot of the differences between the two so that it is easier for users to code when they use either one of the languages in a program. 
 
@@ -60,13 +60,13 @@ The website is especially designed for newbies to coding or the tech world. When
 * As a user, I want to know about the game from looking at it so that i can play the game with being informed about the content.
 * As a user, I want to find out how to play game so that i can play the game efficiently.
 * As a user, I want see if my answer is correct so that my score increases and i perform well.
-* As a user, I want to see time i have left so that i dont run out of time when playing.
+* As a user, I want to see the time i have left so that i dont run out of time when playing.
 * As a user, I want to see my score at the end so that i can evaluate if i'm well versed with Javascript or Python syntax.
 
 #### Returning Visitor Goals
 
 * As a user,I want different questions every time i play to test my knowledge even further.
-* As a user,I want to be able to play again if i wanted to so i cant improve my prrevious score.
+* As a user,I want to be able to play again if i wanted to so i cant improve my previous score.
 
 ---
 
@@ -79,7 +79,7 @@ I wanted to keep the colour scheme to match with background video, and chose few
 The colours below are used in the following instances:
 * #FF9F00 - Used for button colors,background colours, some texts. This is used as the main color for game.
 * #C1C1C1 - Opted out of not using this in final design because there was no need, and inserting the colour made the area dull.
-* #2B2B2B - Used as Primary and secondary text colors and as background color to contrast against the main color(#FF0F00).
+* #2B2B2B - Used as Primary and secondary text colors and as background color to contrast against the main color(#FF9F00).
 * #FAF9F6 - Used as background color for answer buttons
 * #226F54 - Used to alert user if answer clicked is correct- turns the button to this color and gives the section border the same box-shadow color.
 * #E04C4C - Used to alert user if answer clicked is incorrect- turns the button to this color and gives the section border the same box-shadow color.
